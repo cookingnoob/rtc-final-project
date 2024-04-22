@@ -1,6 +1,9 @@
 import express from 'express'
-import { registerUser } from '../controllers/user'
+import { registerUser } from '../controllers/user.js'
+import { checkEmailPassword } from '../middlewares/validators.js'
 
-const router = express.Router()
+const userRouter = express.Router()
 
-router.post('register', registerUser)
+userRouter.post('register', checkEmailPassword, registerUser)
+
+export default userRouter
