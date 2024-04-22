@@ -6,4 +6,6 @@ const userRouter = express.Router()
 
 userRouter.post("/register", checkEmailPassword, registerUser)
 
+userRouter.post('/login',)
+
 export default userRouter

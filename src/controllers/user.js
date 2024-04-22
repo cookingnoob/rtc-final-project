@@ -1,6 +1,7 @@
 import { query, validationResult } from "express-validator";
 import bcrypt from "bcrypt";
 import User from "../models/user.js";
+import jwt from 'jsonwebtoken'
 
 const registerUser = async (req, res, next) => {
     console.log(req.body)
@@ -26,10 +27,14 @@ const registerUser = async (req, res, next) => {
 
     await newUser.save();
 
-    res.status(201).json({data: `se creó una cuenta con el correo ${email}`})
+    const payload = {id: newUser._id}
+    const token = jwt.sign(payload, process.env.JWT_TOKEN, {expiresIn: '1h'})
+
+    res.status(201).json({data: `se creó una cuenta con el correo ${email} token: ${token}`})
   } catch (error) {
     next(error);
   }
 };
+
 
 export { registerUser };
