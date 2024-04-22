@@ -28,7 +28,9 @@ connectToDB()
 //ROUTES
 app.use("/user", userRouter)
 
-
+app.use("/", (req, res) => {
+    res.send('<h1>Bienvenido!</h1>')
+})
 
 const PORT = 3001
 

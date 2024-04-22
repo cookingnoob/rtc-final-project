@@ -30,7 +30,7 @@ const registerUser = async (req, res, next) => {
     const payload = {id: newUser._id}
     const token = jwt.sign(payload, process.env.JWT_TOKEN, {expiresIn: '1h'})
 
-    res.status(201).json({data: `se creó una cuenta con el correo ${email} token: ${token}`})
+    res.status(201).json({data: `se creó una cuenta con el correo ${email}, ${token}`, token})
   } catch (error) {
     next(error);
   }
@@ -54,7 +54,7 @@ const loginUser = async (req,res,next) => {
         if(userExists && isPasswordRight){
             const payload = {id: userExists._id}
             const token = jwt.sign(payload, process.env.JWT_TOKEN, {expiresIn: '1h'})
-            res.status(201).json({data: `iniciaste sesión ${token}`})
+            res.status(201).json({data: `iniciaste sesión ${token}`, token})
         }
 
     } catch (error) {
