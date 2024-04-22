@@ -24,11 +24,11 @@ app.use(cors())
 
 connectToDB()
 
-app.use('/user', userRouter)
 
-app.use('/', (req, res) => {
-    res.send('<h1>Sí funciona</h1>')
-})
+//ROUTES
+app.use("/user", userRouter)
+
+
 
 const PORT = 3001
 

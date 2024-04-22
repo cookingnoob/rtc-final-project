@@ -4,6 +4,6 @@ import { checkEmailPassword } from '../middlewares/validators.js'
 
 const userRouter = express.Router()
 
-userRouter.post('register', checkEmailPassword, registerUser)
+userRouter.post("/register", checkEmailPassword, registerUser)
 
 export default userRouter
