@@ -36,5 +36,29 @@ const registerUser = async (req, res, next) => {
   }
 };
 
+const loginUser = async (req,res,next) => {
+    try {
+        const {email, password} = req.body
+        const userExists = await User.findOne({ email: email });
 
-export { registerUser };
+        if(!userExists){
+            res.status(400).json({errorMessage: 'verifica tus credenciales para iniciar sesión'})
+        }
+
+        const isPasswordRight = bcrypt.compare(password, userExists.password)
+
+        if(!isPasswordRight){
+             res.status(400).json({errorMessage: 'verifica tus credenciales para iniciar sesión'})
+        }
+
+        if(userExists && isPasswordRight){
+            const payload = {id: userExists._id}
+            const token = jwt.sign(payload, process.env.JWT_TOKEN, {expiresIn: '1h'})
+            res.status(201).json({data: `iniciaste sesión ${token}`})
+        }
+
+    } catch (error) {
+        next(error)
+    }
+}
+export { registerUser, loginUser };
