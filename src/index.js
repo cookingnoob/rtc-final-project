@@ -8,6 +8,7 @@ import morgan from 'morgan'
 import bodyParser from 'body-parser'
 import userRouter from './routes/user.js'
 import connectToDB from './config/connectDB.js'
+import { getDataFromWebPage } from './config/scrapData.js'
 
 //CONFIGURATIONS
 const __filename = fileURLToPath(import.meta.url)
@@ -23,7 +24,7 @@ app.use(bodyParser.urlencoded({limit: '30mb', extended: true}))
 app.use(cors())
 
 connectToDB()
-
+getDataFromWebPage()
 
 //ROUTES
 app.use("/user", userRouter)
