@@ -30,12 +30,13 @@ const getDataFromWebPage = async () => {
       const brandName = brandElement
         ? brandElement.textContent.trim()
         : "Brand not found";
-      const srcsetAttribute =
-        product
-          .querySelector(".b-product_image source")
-          ?.getAttribute("srcset") || "Srcset not found";
 
-      return { brandName, srcsetAttribute };
+      const nameTile = product.querySelector('.b-product_tile-name a').textContent.trim()
+      const srcsetAttribute =product.querySelector(".b-product_image source")
+            ?.getAttribute("srcset") || "Srcset not found";
+    
+            return { brandName,nameTile, srcsetAttribute  };
+
     });
   });
   console.log(result);
