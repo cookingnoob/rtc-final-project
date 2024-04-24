@@ -9,6 +9,7 @@ import bodyParser from 'body-parser'
 import userRouter from './routes/user.js'
 import connectToDB from './config/connectDB.js'
 import { getDataFromWebPage } from './config/scrapData.js'
+import { readCsvFiles } from './config/csvToJson.js'
 
 //CONFIGURATIONS
 const __filename = fileURLToPath(import.meta.url)
@@ -25,6 +26,7 @@ app.use(cors())
 
 connectToDB()
 // getDataFromWebPage()
+readCsvFiles('user.js')
 
 //ROUTES
 app.use("/user", userRouter)
