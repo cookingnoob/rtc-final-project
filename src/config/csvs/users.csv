@@ -1,8 +1,8 @@
 Name,Email,Password,Lists,Avatar
-Alice Johnson,alice@example.com,hashed_password1,"Baking Bread, Lord of the Rings Marathon Party",http://example.com/avatar1.png
-Bob Smith,bob@example.com,hashed_password2,"Plan Trip to NY, React Hooks Study Session",http://example.com/avatar2.png
-Carol White,carol@example.com,hashed_password3,"Picnic in a Park",http://example.com/avatar3.png
-David Lee,david@example.com,hashed_password4,"Mari Kondo My Home, Grocery List for a BBQ",http://example.com/avatar4.png
-Eva Brown,eva@example.com,hashed_password5,"Sleep Routine Backed by Science",http://example.com/avatar5.png
-Frank Wright,frank@example.com,hashed_password6,"Job Interview Preparation",http://example.com/avatar6.png
-Grace Hall,grace@example.com,hashed_password7,"Movies to Watch",http://example.com/avatar7.png
+Alice Johnson,alice@example.com,hashed_password1,"Baking Bread, Lord of the Rings Marathon Party",https://res.cloudinary.com/di6vnxokz/image/upload/v1713998860/TODO-AVATARS/quioilmspgu7kdv3tq0e.webp
+Bob Smith,bob@example.com,hashed_password2,"Plan Trip to NY, React Hooks Study Session",https://res.cloudinary.com/di6vnxokz/image/upload/v1713998860/TODO-AVATARS/s5ck0yquxqwsmaalz3zt.webp
+Carol White,carol@example.com,hashed_password3,"Picnic in a Park",https://res.cloudinary.com/di6vnxokz/image/upload/v1713998860/TODO-AVATARS/ubuesiyu1bima3mol4bv.webp
+David Lee,david@example.com,hashed_password4,"Mari Kondo My Home, Grocery List for a BBQ",https://res.cloudinary.com/di6vnxokz/image/upload/v1713998861/TODO-AVATARS/kyypqfwghjffuittphjz.webp
+Eva Brown,eva@example.com,hashed_password5,"Sleep Routine Backed by Science",https://res.cloudinary.com/di6vnxokz/image/upload/v1713998860/TODO-AVATARS/nhumunkjhyaqpchbxv5j.webp
+Frank Wright,frank@example.com,hashed_password6,"Job Interview Preparation",https://res.cloudinary.com/di6vnxokz/image/upload/v1713998860/TODO-AVATARS/m7yv4do2i5eosqgs8mef.webp
+Grace Hall,grace@example.com,hashed_password7,"Movies to Watch",https://res.cloudinary.com/di6vnxokz/image/upload/v1713998860/TODO-AVATARS/ghkzc2wqp770occnlr22.webp
