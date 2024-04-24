@@ -1,0 +1,8 @@
+Name,Email,Password,Lists,Avatar
+Alice Johnson,alice@example.com,hashed_password1,"Baking Bread, Lord of the Rings Marathon Party",http://example.com/avatar1.png
+Bob Smith,bob@example.com,hashed_password2,"Plan Trip to NY, React Hooks Study Session",http://example.com/avatar2.png
+Carol White,carol@example.com,hashed_password3,"Picnic in a Park",http://example.com/avatar3.png
+David Lee,david@example.com,hashed_password4,"Mari Kondo My Home, Grocery List for a BBQ",http://example.com/avatar4.png
+Eva Brown,eva@example.com,hashed_password5,"Sleep Routine Backed by Science",http://example.com/avatar5.png
+Frank Wright,frank@example.com,hashed_password6,"Job Interview Preparation",http://example.com/avatar6.png
+Grace Hall,grace@example.com,hashed_password7,"Movies to Watch",http://example.com/avatar7.png

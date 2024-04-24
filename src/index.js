@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({limit: '30mb', extended: true}))
 app.use(cors())
 
 connectToDB()
-getDataFromWebPage()
+// getDataFromWebPage()
 
 //ROUTES
 app.use("/user", userRouter)
