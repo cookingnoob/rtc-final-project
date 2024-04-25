@@ -13,6 +13,7 @@ const readCsvFiles = (document) => {
     )
 
     const fileText = fs.readFileSync(csvFilePath)
+    
     const convertDataTypes = (records) => {
         if(document  === 'users.csv'){
             return records.map(record => {
