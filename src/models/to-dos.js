@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const toDoSchema = newmongoose.Schema({
+const toDoSchema = new mongoose.Schema({
   id: {
     type: Number,
     unique: true,

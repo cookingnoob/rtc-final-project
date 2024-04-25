@@ -9,6 +9,7 @@ import bodyParser from "body-parser";
 import userRouter from "./routes/user.js";
 import connectToDB from "./config/connectDB.js";
 import { readCsvFiles } from "./config/csvToJson.js";
+import seedDB from "./config/seedDb.js";
 
 //CONFIGURATIONS
 const __filename = fileURLToPath(import.meta.url);
@@ -24,7 +25,7 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 
 connectToDB();
-
+seedDB(false);
 //Para convertir los csv a objetos de js o json.
 //Acepta un parametro que es el nombre del archivo que se va a leer
 // readCsvFiles("to-dos.csv");
