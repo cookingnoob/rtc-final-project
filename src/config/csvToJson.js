@@ -20,7 +20,7 @@ const readCsvFiles = (document) => {
                     name: record.Name, 
                     email: record.Email, 
                     password: record.Password, 
-                    lists: record.Lists.split("; "), 
+                    lists: record.Lists.split(","), 
                     avatar: record.Avatar, 
                 };
             });
@@ -33,7 +33,7 @@ const readCsvFiles = (document) => {
                     user: record.User,
                     sharedUsers: record.SharedUsers.split(","),
                     global: Boolean(record.Global),
-                    ratings: record.Ratings,
+                    ratings: Number(record.Ratings),
                 }
             })
         }else if (document === 'to-dos.csv'){
@@ -60,14 +60,14 @@ const readCsvFiles = (document) => {
     })
   
     const recordWithType = convertDataTypes(records)
-    console.log(recordWithType)
-    // const jsonText = JSON.stringify(records)
-    // const originalDocument = document.split('.')
-    // const documentName = originalDocument.shift()
-    // const seedsPath = path.join(__dirname, 'seeds')
-    // const jsonFilePath = path.join(seedsPath, `${documentName}.json`)
+  
+    const jsonText = JSON.stringify(recordWithType)
+    const originalDocument = document.split('.')
+    const documentName = originalDocument.shift()
+    const seedsPath = path.join(__dirname, 'seeds')
+    const jsonFilePath = path.join(seedsPath, `${documentName}.json`)
 
-    // fs.writeFileSync(jsonFilePath, jsonText)
+    fs.writeFileSync(jsonFilePath, jsonText)
 
   return
 }
