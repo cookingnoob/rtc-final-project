@@ -13,7 +13,44 @@ const readCsvFiles = (document) => {
     )
 
     const fileText = fs.readFileSync(csvFilePath)
-
+    const convertDataTypes = (records) => {
+        if(document  === 'users.csv'){
+            return records.map(record => {
+                return {
+                    name: record.Name, 
+                    email: record.Email, 
+                    password: record.Password, 
+                    lists: record.Lists.split("; "), 
+                    avatar: record.Avatar, 
+                };
+            });
+        }else if (document === 'lists.csv'){
+            return records.map(record => {
+                return {
+                    id: Number(record.ID),
+                    listName: record.ListName,
+                    color: record.Color,
+                    user: record.User,
+                    sharedUsers: record.SharedUsers.split(","),
+                    global: Boolean(record.Global),
+                    ratings: record.Ratings,
+                }
+            })
+        }else if (document === 'to-dos.csv'){
+            return records.map(record => {
+                return {
+                    id: Number(record.ID),
+                    listID: Number(record.ListID),
+                    description: record.Description,
+                    done: Boolean(record.Done),
+                    doneByXDate: Date(record.DoneByXDate),
+                    howMuchTimeItTakes: record.HowMuchTimeItTakes,
+                    notes: record.Notes,
+                    files: record.Files
+                }
+            })
+        }
+    }
     const records = parse(fileText, {
         columns: true,
         skip_empty_lines: true,
@@ -21,32 +58,16 @@ const readCsvFiles = (document) => {
         relax_column_count: true,
         relax: true
     })
-    // const allLines = fileText.split("\n")
+  
+    const recordWithType = convertDataTypes(records)
+    console.log(recordWithType)
+    // const jsonText = JSON.stringify(records)
+    // const originalDocument = document.split('.')
+    // const documentName = originalDocument.shift()
+    // const seedsPath = path.join(__dirname, 'seeds')
+    // const jsonFilePath = path.join(seedsPath, `${documentName}.json`)
 
-    // const headers = allLines[0]
-    // const dataLines = allLines.slice(1)
-
-    // const fieldNames = headers.split(",")
-
-    // let objList = []
-
-    // for(let i = 0; i < dataLines.length; i++){
-    //     let obj = {}
-    //     const data = dataLines[i].split(',')
-    //     for(let j = 0; j< fieldNames.length; j++){
-    //         const fieldName = fieldNames[j]
-    //         obj[fieldName] = data[j]
-    //     } 
-    //     objList.push(obj)
-    // }
-    const jsonText = JSON.stringify(records)
-
-    const originalDocument = document.split('.')
-    const documentName = originalDocument.shift()
-    const seedsPath = path.join(__dirname, 'seeds')
-    const jsonFilePath = path.join(seedsPath, `${documentName}.json`)
-
-    fs.writeFileSync(jsonFilePath, jsonText)
+    // fs.writeFileSync(jsonFilePath, jsonText)
 
   return
 }
