@@ -66,7 +66,7 @@ const readCsvFiles = (document) => {
     const originalDocument = document.split('.')
     const documentName = originalDocument.shift()
     const seedsPath = path.join(__dirname, 'seeds')
-    const jsonFilePath = path.join(seedsPath, `${documentName}.json`)
+    const jsonFilePath = path.join(seedsPath, `${documentName}.js`)
 
     fs.writeFileSync(jsonFilePath, jsonText)
 
