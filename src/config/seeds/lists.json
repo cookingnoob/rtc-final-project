@@ -1,0 +1,92 @@
+[
+  {
+    "ID": "1",
+    "ListName": "Baking Bread",
+    "Color": "#f8b400",
+    "User": "Alice Johnson",
+    "SharedUsers": "Bob Smith, Carol White",
+    "Global": "true",
+    "Ratings": ""
+  },
+  {
+    "ID": "2",
+    "ListName": "Plan Trip to NY",
+    "Color": "#00a2ff",
+    "User": "Bob Smith",
+    "SharedUsers": "Alice Johnson, Eva Brown",
+    "Global": "true",
+    "Ratings": ""
+  },
+  {
+    "ID": "3",
+    "ListName": "Picnic in a Park",
+    "Color": "#3cb371",
+    "User": "Carol White",
+    "SharedUsers": "David Lee, Grace Hall",
+    "Global": "true",
+    "Ratings": ""
+  },
+  {
+    "ID": "4",
+    "ListName": "Mari Kondo My Home",
+    "Color": "#ff6347",
+    "User": "David Lee",
+    "SharedUsers": "Eva Brown, Frank Wright",
+    "Global": "true",
+    "Ratings": ""
+  },
+  {
+    "ID": "5",
+    "ListName": "Sleep Routine Backed by Science",
+    "Color": "#6a5acd",
+    "User": "Eva Brown",
+    "SharedUsers": "Carol White, Grace Hall",
+    "Global": "true",
+    "Ratings": ""
+  },
+  {
+    "ID": "6",
+    "ListName": "Job Interview Preparation",
+    "Color": "#ff4500",
+    "User": "Frank Wright",
+    "SharedUsers": "Bob Smith, David Lee",
+    "Global": "true",
+    "Ratings": ""
+  },
+  {
+    "ID": "7",
+    "ListName": "Lord of the Rings Marathon Party",
+    "Color": "#daa520",
+    "User": "Alice Johnson",
+    "SharedUsers": "Frank Wright, Grace Hall",
+    "Global": "true",
+    "Ratings": ""
+  },
+  {
+    "ID": "8",
+    "ListName": "Grocery List for a BBQ",
+    "Color": "#f08080",
+    "User": "David Lee",
+    "SharedUsers": "Alice Johnson, Bob Smith",
+    "Global": "true",
+    "Ratings": ""
+  },
+  {
+    "ID": "9",
+    "ListName": "Movies to Watch",
+    "Color": "#20b2aa",
+    "User": "Grace Hall",
+    "SharedUsers": "Eva Brown, Carol White",
+    "Global": "true",
+    "Ratings": ""
+  },
+  {
+    "ID": "10",
+    "ListName": "React Hooks Study Session",
+    "Color": "#4682b4",
+    "User": "Bob Smith",
+    "SharedUsers": "David Lee, Frank Wright",
+    "Global": "true",
+    "Ratings": ""
+  }
+]

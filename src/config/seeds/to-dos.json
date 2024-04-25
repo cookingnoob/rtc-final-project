@@ -1,0 +1,912 @@
+[
+  {
+    "ID": "1",
+    "ListID": "1",
+    "Description": "Feed sourdough night before",
+    "Done": "false",
+    "DoneByXDate": "2024-04-29",
+    "HowMuchTimeItTakes": "10 minutes",
+    "Notes": "Prepare starter for next day baking",
+    "Files": ""
+  },
+  {
+    "ID": "2",
+    "ListID": "1",
+    "Description": "Mix ingredients",
+    "Done": "false",
+    "DoneByXDate": "2024-04-30",
+    "HowMuchTimeItTakes": "15 minutes",
+    "Notes": "Follow specific bread recipe",
+    "Files": ""
+  },
+  {
+    "ID": "3",
+    "ListID": "1",
+    "Description": "Let it rest 30 minutes",
+    "Done": "false",
+    "DoneByXDate": "2024-04-30",
+    "HowMuchTimeItTakes": "30 minutes",
+    "Notes": "Allow dough to rest and rise initially",
+    "Files": ""
+  },
+  {
+    "ID": "4",
+    "ListID": "1",
+    "Description": "Stretch and fold into a ball, repeat 4 times",
+    "Done": "false",
+    "DoneByXDate": "2024-04-30",
+    "HowMuchTimeItTakes": "2 hours",
+    "Notes": "Every 30 mins do a stretch and fold",
+    "Files": ""
+  },
+  {
+    "ID": "5",
+    "ListID": "1",
+    "Description": "Shape into a ball and let it rest 12 hours in fridge",
+    "Done": "false",
+    "DoneByXDate": "2024-05-01",
+    "HowMuchTimeItTakes": "12 hours",
+    "Notes": "Overnight fermentation in the fridge",
+    "Files": ""
+  },
+  {
+    "ID": "6",
+    "ListID": "1",
+    "Description": "Preheat oven and cast iron for 1 hr at 450f",
+    "Done": "false",
+    "DoneByXDate": "2024-05-01",
+    "HowMuchTimeItTakes": "1 hour",
+    "Notes": "Ensure oven is at optimal temperature",
+    "Files": ""
+  },
+  {
+    "ID": "7",
+    "ListID": "1",
+    "Description": "Put the bread in cast iron and score",
+    "Done": "false",
+    "DoneByXDate": "2024-05-01",
+    "HowMuchTimeItTakes": "40 minutes",
+    "Notes": "Score bread for aesthetic and practical baking reasons",
+    "Files": ""
+  },
+  {
+    "ID": "8",
+    "ListID": "1",
+    "Description": "Bake extra 10-20 minutes until golden brown",
+    "Done": "false",
+    "DoneByXDate": "2024-05-01",
+    "HowMuchTimeItTakes": "20 minutes",
+    "Notes": "Final bake to achieve crust color and texture",
+    "Files": ""
+  },
+  {
+    "ID": "9",
+    "ListID": "1",
+    "Description": "Let it cool for 1 hour",
+    "Done": "false",
+    "DoneByXDate": "2024-05-01",
+    "HowMuchTimeItTakes": "1 hour",
+    "Notes": "Cool on a wire rack to maintain crust texture",
+    "Files": ""
+  },
+  {
+    "ID": "10",
+    "ListID": "2",
+    "Description": "Buy tickets for Met Museum",
+    "Done": "false",
+    "DoneByXDate": "2024-05-01",
+    "HowMuchTimeItTakes": "15 minutes",
+    "Notes": "Purchase online to avoid queues",
+    "Files": ""
+  },
+  {
+    "ID": "11",
+    "ListID": "2",
+    "Description": "Buy tickets for WTC Sky View",
+    "Done": "false",
+    "DoneByXDate": "2024-05-02",
+    "HowMuchTimeItTakes": "15 minutes",
+    "Notes": "Check for weather conditions before booking",
+    "Files": ""
+  },
+  {
+    "ID": "12",
+    "ListID": "2",
+    "Description": "Make reservations for Peter Luger",
+    "Done": "false",
+    "DoneByXDate": "2024-05-03",
+    "HowMuchTimeItTakes": "20 minutes",
+    "Notes": "Book well in advance due to popularity",
+    "Files": ""
+  },
+  {
+    "ID": "13",
+    "ListID": "2",
+    "Description": "Buy tickets for NY Yankees",
+    "Done": "false",
+    "DoneByXDate": "2024-05-04",
+    "HowMuchTimeItTakes": "20 minutes",
+    "Notes": "Select optimal game and seating",
+    "Files": ""
+  },
+  {
+    "ID": "14",
+    "ListID": "2",
+    "Description": "Decide what Broadway show to watch and buy tickets",
+    "Done": "false",
+    "DoneByXDate": "2024-05-05",
+    "HowMuchTimeItTakes": "30 minutes",
+    "Notes": "Choose based on reviews and availability",
+    "Files": ""
+  },
+  {
+    "ID": "15",
+    "ListID": "2",
+    "Description": "Make hotel reservations",
+    "Done": "false",
+    "DoneByXDate": "2024-05-06",
+    "HowMuchTimeItTakes": "25 minutes",
+    "Notes": "Compare rates and locations in Manhattan",
+    "Files": ""
+  },
+  {
+    "ID": "16",
+    "ListID": "2",
+    "Description": "Make flight reservations",
+    "Done": "false",
+    "DoneByXDate": "2024-05-07",
+    "HowMuchTimeItTakes": "30 minutes",
+    "Notes": "Book flights aligning with travel dates",
+    "Files": ""
+  },
+  {
+    "ID": "17",
+    "ListID": "2",
+    "Description": "See climate to choose proper clothing",
+    "Done": "false",
+    "DoneByXDate": "2024-05-08",
+    "HowMuchTimeItTakes": "10 minutes",
+    "Notes": "Check weather forecast week before packing",
+    "Files": ""
+  },
+  {
+    "ID": "18",
+    "ListID": "2",
+    "Description": "Highlight good restaurants around Central Park",
+    "Done": "false",
+    "DoneByXDate": "2024-05-09",
+    "HowMuchTimeItTakes": "30 minutes",
+    "Notes": "Look for variety and top-rated spots",
+    "Files": ""
+  },
+  {
+    "ID": "19",
+    "ListID": "2",
+    "Description": "List of best sushi bars in town",
+    "Done": "false",
+    "DoneByXDate": "2024-05-10",
+    "HowMuchTimeItTakes": "30 minutes",
+    "Notes": "Research and note down top-rated sushi bars",
+    "Files": ""
+  },
+  {
+    "ID": "20",
+    "ListID": "3",
+    "Description": "Buy picnic basket",
+    "Done": "false",
+    "DoneByXDate": "2024-05-01",
+    "HowMuchTimeItTakes": "15 minutes",
+    "Notes": "Choose a large enough basket for all food items",
+    "Files": ""
+  },
+  {
+    "ID": "21",
+    "ListID": "3",
+    "Description": "Buy sunscreen",
+    "Done": "false",
+    "DoneByXDate": "2024-05-02",
+    "HowMuchTimeItTakes": "5 minutes",
+    "Notes": "SPF 50+ recommended",
+    "Files": ""
+  },
+  {
+    "ID": "22",
+    "ListID": "3",
+    "Description": "Buy cured meats, cheeses, artisan bread and wine and sodas",
+    "Done": "false",
+    "DoneByXDate": "2024-05-03",
+    "HowMuchTimeItTakes": "30 minutes",
+    "Notes": "Select a variety to cater to all tastes",
+    "Files": ""
+  },
+  {
+    "ID": "23",
+    "ListID": "3",
+    "Description": "Check if partner has bicycle ready",
+    "Done": "false",
+    "DoneByXDate": "2024-05-04",
+    "HowMuchTimeItTakes": "10 minutes",
+    "Notes": "Ensure both bicycles are in good condition",
+    "Files": ""
+  },
+  {
+    "ID": "24",
+    "ListID": "3",
+    "Description": "Check my bicycle",
+    "Done": "false",
+    "DoneByXDate": "2024-05-05",
+    "HowMuchTimeItTakes": "15 minutes",
+    "Notes": "Perform basic maintenance if necessary",
+    "Files": ""
+  },
+  {
+    "ID": "25",
+    "ListID": "3",
+    "Description": "Check climate",
+    "Done": "false",
+    "DoneByXDate": "2024-05-06",
+    "HowMuchTimeItTakes": "5 minutes",
+    "Notes": "Plan for weather-appropriate clothing and items",
+    "Files": ""
+  },
+  {
+    "ID": "26",
+    "ListID": "3",
+    "Description": "Prepare backpack with sunglasses, cards, keys",
+    "Done": "false",
+    "DoneByXDate": "2024-05-07",
+    "HowMuchTimeItTakes": "10 minutes",
+    "Notes": "Pack all essentials for a day out",
+    "Files": ""
+  },
+  {
+    "ID": "27",
+    "ListID": "4",
+    "Description": "Take all of my clothes out",
+    "Done": "false",
+    "DoneByXDate": "2024-04-15",
+    "HowMuchTimeItTakes": "1 hour",
+    "Notes": "Pile clothes on the bed to see everything",
+    "Files": ""
+  },
+  {
+    "ID": "28",
+    "ListID": "4",
+    "Description": "Process clothes to see if they spark joy or they go",
+    "Done": "false",
+    "DoneByXDate": "2024-04-15",
+    "HowMuchTimeItTakes": "2 hours",
+    "Notes": "Decide which clothes to keep",
+    "Files": ""
+  },
+  {
+    "ID": "29",
+    "ListID": "4",
+    "Description": "Put clothes where they belong",
+    "Done": "false",
+    "DoneByXDate": "2024-04-16",
+    "HowMuchTimeItTakes": "1 hour",
+    "Notes": "Organize clothes back into closet neatly",
+    "Files": ""
+  },
+  {
+    "ID": "30",
+    "ListID": "4",
+    "Description": "Take all books out",
+    "Done": "false",
+    "DoneByXDate": "2024-04-17",
+    "HowMuchTimeItTakes": "30 minutes",
+    "Notes": "Gather all books from around the house",
+    "Files": ""
+  },
+  {
+    "ID": "31",
+    "ListID": "4",
+    "Description": "Process books",
+    "Done": "false",
+    "DoneByXDate": "2024-04-18",
+    "HowMuchTimeItTakes": "1 hour",
+    "Notes": "Decide which books to keep",
+    "Files": ""
+  },
+  {
+    "ID": "32",
+    "ListID": "4",
+    "Description": "Put books where they belong",
+    "Done": "false",
+    "DoneByXDate": "2024-04-19",
+    "HowMuchTimeItTakes": "30 minutes",
+    "Notes": "Reorganize books on shelves",
+    "Files": ""
+  },
+  {
+    "ID": "33",
+    "ListID": "4",
+    "Description": "Take all miscellaneous things out",
+    "Done": "false",
+    "DoneByXDate": "2024-04-20",
+    "HowMuchTimeItTakes": "1 hour",
+    "Notes": "Sort through miscellaneous items",
+    "Files": ""
+  },
+  {
+    "ID": "34",
+    "ListID": "4",
+    "Description": "Process them",
+    "Done": "false",
+    "DoneByXDate": "2024-04-21",
+    "HowMuchTimeItTakes": "2 hours",
+    "Notes": "Determine what to keep or discard",
+    "Files": ""
+  },
+  {
+    "ID": "35",
+    "ListID": "4",
+    "Description": "Put the miscellaneous items where they belong",
+    "Done": "false",
+    "DoneByXDate": "2024-04-22",
+    "HowMuchTimeItTakes": "1 hour",
+    "Notes": "Organize items neatly in their places",
+    "Files": ""
+  },
+  {
+    "ID": "36",
+    "ListID": "4",
+    "Description": "Take all sentimental value items out",
+    "Done": "false",
+    "DoneByXDate": "2024-04-23",
+    "HowMuchTimeItTakes": "30 minutes",
+    "Notes": "Handle with care, lay out items to view",
+    "Files": ""
+  },
+  {
+    "ID": "37",
+    "ListID": "4",
+    "Description": "Process them",
+    "Done": "false",
+    "DoneByXDate": "2024-04-24",
+    "HowMuchTimeItTakes": "1 hour",
+    "Notes": "Decide what is truly valuable and what can be let go",
+    "Files": ""
+  },
+  {
+    "ID": "38",
+    "ListID": "4",
+    "Description": "Take them back where they belong",
+    "Done": "false",
+    "DoneByXDate": "2024-04-25",
+    "HowMuchTimeItTakes": "30 minutes",
+    "Notes": "Store sentimental items in a respectful place",
+    "Files": ""
+  },
+  {
+    "ID": "39",
+    "ListID": "5",
+    "Description": "Turn bright lights off 2 hours before bed",
+    "Done": "false",
+    "DoneByXDate": "2024-06-01",
+    "HowMuchTimeItTakes": "2 hours",
+    "Notes": "Prepares body for sleep by reducing light exposure",
+    "Files": ""
+  },
+  {
+    "ID": "40",
+    "ListID": "5",
+    "Description": "Relax by doing a calm activity like reading, stretching",
+    "Done": "false",
+    "DoneByXDate": "2024-06-01",
+    "HowMuchTimeItTakes": "30 minutes",
+    "Notes": "Helps decrease stress and relax the body",
+    "Files": ""
+  },
+  {
+    "ID": "41",
+    "ListID": "5",
+    "Description": "Prepare chamomile tea",
+    "Done": "false",
+    "DoneByXDate": "2024-06-01",
+    "HowMuchTimeItTakes": "10 minutes",
+    "Notes": "Chamomile is known for its calming effects",
+    "Files": ""
+  },
+  {
+    "ID": "42",
+    "ListID": "5",
+    "Description": "Prepare aromatherapy with lavender",
+    "Done": "false",
+    "DoneByXDate": "2024-06-01",
+    "HowMuchTimeItTakes": "5 minutes",
+    "Notes": "Lavender helps in reducing sleep anxiety",
+    "Files": ""
+  },
+  {
+    "ID": "43",
+    "ListID": "5",
+    "Description": "Get into comfy clothes",
+    "Done": "false",
+    "DoneByXDate": "2024-06-01",
+    "HowMuchTimeItTakes": "5 minutes",
+    "Notes": "Comfortable clothing aids better sleep",
+    "Files": ""
+  },
+  {
+    "ID": "44",
+    "ListID": "5",
+    "Description": "Get a glass of water for when you wake up",
+    "Done": "false",
+    "DoneByXDate": "2024-06-01",
+    "HowMuchTimeItTakes": "2 minutes",
+    "Notes": "Staying hydrated is important after a night's sleep",
+    "Files": ""
+  },
+  {
+    "ID": "45",
+    "ListID": "5",
+    "Description": "Meditate or listen to ASMR recordings to help you fall asleep",
+    "Done": "false",
+    "DoneByXDate": "2024-06-01",
+    "HowMuchTimeItTakes": "30 minutes",
+    "Notes": "Meditation or ASMR can significantly improve sleep quality",
+    "Files": ""
+  },
+  {
+    "ID": "46",
+    "ListID": "6",
+    "Description": "Update CV",
+    "Done": "false",
+    "DoneByXDate": "2024-07-01",
+    "HowMuchTimeItTakes": "1 hour",
+    "Notes": "Keep your professional information up to date",
+    "Files": ""
+  },
+  {
+    "ID": "47",
+    "ListID": "6",
+    "Description": "Update LinkedIn profile",
+    "Done": "false",
+    "DoneByXDate": "2024-07-01",
+    "HowMuchTimeItTakes": "30 minutes",
+    "Notes": "Important for maintaining a professional online presence",
+    "Files": ""
+  },
+  {
+    "ID": "48",
+    "ListID": "6",
+    "Description": "Research companies that hire people in your position",
+    "Done": "false",
+    "DoneByXDate": "2024-07-01",
+    "HowMuchTimeItTakes": "2 hours",
+    "Notes": "Understand potential employers and the job market",
+    "Files": ""
+  },
+  {
+    "ID": "49",
+    "ListID": "6",
+    "Description": "Apply to job offers",
+    "Done": "false",
+    "DoneByXDate": "2024-07-01",
+    "HowMuchTimeItTakes": "3 hours",
+    "Notes": "The more applications you submit, the better your chances",
+    "Files": ""
+  },
+  {
+    "ID": "50",
+    "ListID": "6",
+    "Description": "Prepare by asking a friend to interview you and give you feedback",
+    "Done": "false",
+    "DoneByXDate": "2024-07-01",
+    "HowMuchTimeItTakes": "1 hour",
+    "Notes": "Mock interviews can greatly improve your real interview performance",
+    "Files": ""
+  },
+  {
+    "ID": "51",
+    "ListID": "6",
+    "Description": "Check dressing options to give the best impression",
+    "Done": "false",
+    "DoneByXDate": "2024-07-01",
+    "HowMuchTimeItTakes": "30 minutes",
+    "Notes": "Proper attire is crucial for a positive first impression",
+    "Files": ""
+  },
+  {
+    "ID": "52",
+    "ListID": "6",
+    "Description": "Be patient, it takes time and don't take it personal, rinse and repeat as necessary",
+    "Done": "false",
+    "DoneByXDate": "2024-07-01",
+    "HowMuchTimeItTakes": "Ongoing",
+    "Notes": "Job hunting is a marathon, not a sprint",
+    "Files": ""
+  },
+  {
+    "ID": "53",
+    "ListID": "7",
+    "Description": "Invite friends",
+    "Done": "false",
+    "DoneByXDate": "2024-08-01",
+    "HowMuchTimeItTakes": "20 minutes",
+    "Notes": "Gather your fellow LOTR enthusiasts",
+    "Files": ""
+  },
+  {
+    "ID": "54",
+    "ListID": "7",
+    "Description": "Buy movies",
+    "Done": "false",
+    "DoneByXDate": "2024-08-01",
+    "HowMuchTimeItTakes": "30 minutes",
+    "Notes": "Ensure you have all the films ready for the marathon",
+    "Files": ""
+  },
+  {
+    "ID": "55",
+    "ListID": "7",
+    "Description": "Buy tons of potatoes",
+    "Done": "false",
+    "DoneByXDate": "2024-08-01",
+    "HowMuchTimeItTakes": "15 minutes",
+    "Notes": "Essential for the 'PO-TA-TOES' dish",
+    "Files": ""
+  },
+  {
+    "ID": "56",
+    "ListID": "7",
+    "Description": "Boil 'em",
+    "Done": "false",
+    "DoneByXDate": "2024-08-01",
+    "HowMuchTimeItTakes": "30 minutes",
+    "Notes": "Start the cooking process for the feast",
+    "Files": ""
+  },
+  {
+    "ID": "57",
+    "ListID": "7",
+    "Description": "Mash 'em",
+    "Done": "false",
+    "DoneByXDate": "2024-08-01",
+    "HowMuchTimeItTakes": "20 minutes",
+    "Notes": "Prepare mashed potatoes as part of the themed meal",
+    "Files": ""
+  },
+  {
+    "ID": "58",
+    "ListID": "7",
+    "Description": "Stick 'em in a stew",
+    "Done": "false",
+    "DoneByXDate": "2024-08-01",
+    "HowMuchTimeItTakes": "30 minutes",
+    "Notes": "Complete the iconic dish from the series",
+    "Files": ""
+  },
+  {
+    "ID": "59",
+    "ListID": "7",
+    "Description": "Buy beer and sodas",
+    "Done": "false",
+    "DoneByXDate": "2024-08-01",
+    "HowMuchTimeItTakes": "30 minutes",
+    "Notes": "Stock up on drinks for the marathon",
+    "Files": ""
+  },
+  {
+    "ID": "60",
+    "ListID": "7",
+    "Description": "Get comfy clothes",
+    "Done": "false",
+    "DoneByXDate": "2024-08-01",
+    "HowMuchTimeItTakes": "15 minutes",
+    "Notes": "Comfort is key for a movie marathon",
+    "Files": ""
+  },
+  {
+    "ID": "61",
+    "ListID": "7",
+    "Description": "Ask friends to bring other LOTR themed food",
+    "Done": "false",
+    "DoneByXDate": "2024-08-01",
+    "HowMuchTimeItTakes": "20 minutes",
+    "Notes": "Make it a potluck with themed snacks from others",
+    "Files": ""
+  },
+  {
+    "ID": "62",
+    "ListID": "9",
+    "Description": "Watch The Shining",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "2 hours",
+    "Notes": "Classic psychological horror",
+    "Files": ""
+  },
+  {
+    "ID": "63",
+    "ListID": "9",
+    "Description": "Watch Spirited Away",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "2 hours",
+    "Notes": "Acclaimed animated fantasy film",
+    "Files": ""
+  },
+  {
+    "ID": "64",
+    "ListID": "9",
+    "Description": "Watch Birdman",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "2 hours",
+    "Notes": "Dramatic comedy that explores fame and relevance",
+    "Files": ""
+  },
+  {
+    "ID": "65",
+    "ListID": "9",
+    "Description": "Watch The Godfather",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "3 hours",
+    "Notes": "Epic mafia saga",
+    "Files": ""
+  },
+  {
+    "ID": "66",
+    "ListID": "9",
+    "Description": "Watch Mad Max Fury Road",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "2 hours",
+    "Notes": "Action-packed post-apocalyptic film",
+    "Files": ""
+  },
+  {
+    "ID": "67",
+    "ListID": "9",
+    "Description": "Watch The Grand Budapest Hotel",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "1.5 hours",
+    "Notes": "Comedy-drama with visual and narrative style",
+    "Files": ""
+  },
+  {
+    "ID": "68",
+    "ListID": "9",
+    "Description": "Watch [REC]",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "1.5 hours",
+    "Notes": "Spanish horror film with found footage style",
+    "Files": ""
+  },
+  {
+    "ID": "69",
+    "ListID": "9",
+    "Description": "Watch Alien",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "2 hours",
+    "Notes": "Groundbreaking sci-fi horror",
+    "Files": ""
+  },
+  {
+    "ID": "70",
+    "ListID": "9",
+    "Description": "Watch Blade Runner 2049",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "2.5 hours",
+    "Notes": "Sequel to the sci-fi classic Blade Runner",
+    "Files": ""
+  },
+  {
+    "ID": "71",
+    "ListID": "9",
+    "Description": "Watch Pan's Labyrinth",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "2 hours",
+    "Notes": "Dark fantasy with historical context",
+    "Files": ""
+  },
+  {
+    "ID": "72",
+    "ListID": "10",
+    "Description": "Buy coals",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "10 minutes",
+    "Notes": "Essential for grilling",
+    "Files": ""
+  },
+  {
+    "ID": "73",
+    "ListID": "10",
+    "Description": "Buy apple wood chunks",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "10 minutes",
+    "Notes": "Adds smoky flavor to meats",
+    "Files": ""
+  },
+  {
+    "ID": "74",
+    "ListID": "10",
+    "Description": "Buy salt",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "5 minutes",
+    "Notes": "Basic seasoning",
+    "Files": ""
+  },
+  {
+    "ID": "75",
+    "ListID": "10",
+    "Description": "Buy pepper, all kinds",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "5 minutes",
+    "Notes": "For seasoning meats",
+    "Files": ""
+  },
+  {
+    "ID": "76",
+    "ListID": "10",
+    "Description": "Buy paprika",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "5 minutes",
+    "Notes": "Gives color and flavor to meats",
+    "Files": ""
+  },
+  {
+    "ID": "77",
+    "ListID": "10",
+    "Description": "Buy cayenne",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "5 minutes",
+    "Notes": "Adds heat to dishes",
+    "Files": ""
+  },
+  {
+    "ID": "78",
+    "ListID": "10",
+    "Description": "Buy pork butt",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "15 minutes",
+    "Notes": "For pulled pork",
+    "Files": ""
+  },
+  {
+    "ID": "79",
+    "ListID": "10",
+    "Description": "Buy ribs",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "15 minutes",
+    "Notes": "Main dish for BBQ",
+    "Files": ""
+  },
+  {
+    "ID": "80",
+    "ListID": "10",
+    "Description": "Buy lighter",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "5 minutes",
+    "Notes": "Needed to start the grill",
+    "Files": ""
+  },
+  {
+    "ID": "81",
+    "ListID": "10",
+    "Description": "Buy foil",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "5 minutes",
+    "Notes": "Useful for cooking and storage",
+    "Files": ""
+  },
+  {
+    "ID": "82",
+    "ListID": "10",
+    "Description": "Buy beer",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "10 minutes",
+    "Notes": "Beverages for guests",
+    "Files": ""
+  },
+  {
+    "ID": "83",
+    "ListID": "10",
+    "Description": "Buy brioche bread",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "10 minutes",
+    "Notes": "Goes well with BBQ",
+    "Files": ""
+  },
+  {
+    "ID": "84",
+    "ListID": "10",
+    "Description": "Buy chips",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "5 minutes",
+    "Notes": "Snacks for the BBQ",
+    "Files": ""
+  },
+  {
+    "ID": "85",
+    "ListID": "10",
+    "Description": "Buy mayo",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "5 minutes",
+    "Notes": "Condiment for sandwiches",
+    "Files": ""
+  },
+  {
+    "ID": "86",
+    "ListID": "11",
+    "Description": "Study state hook",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "1 hour",
+    "Notes": "Learn how useState manages state in functional components",
+    "Files": ""
+  },
+  {
+    "ID": "87",
+    "ListID": "11",
+    "Description": "Study effect hook",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "1 hour",
+    "Notes": "Understand useEffect for side effects in functional components",
+    "Files": ""
+  },
+  {
+    "ID": "88",
+    "ListID": "11",
+    "Description": "Study ref hook",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "1 hour",
+    "Notes": "Explore useRef for referencing DOM elements",
+    "Files": ""
+  },
+  {
+    "ID": "89",
+    "ListID": "11",
+    "Description": "Study context hook",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "1 hour",
+    "Notes": "Use React Context API with useContext for global state",
+    "Files": ""
+  },
+  {
+    "ID": "90",
+    "ListID": "11",
+    "Description": "Study reduce hook",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "1 hour",
+    "Notes": "Learn how useReducer works for state management",
+    "Files": ""
+  },
+  {
+    "ID": "91",
+    "ListID": "11",
+    "Description": "Create custom hooks",
+    "Done": "false",
+    "DoneByXDate": "",
+    "HowMuchTimeItTakes": "2 hours",
+    "Notes": "Develop custom hooks for reusable logic",
+    "Files": ""
+  }
+]

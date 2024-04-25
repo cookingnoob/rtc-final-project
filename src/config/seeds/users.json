@@ -3,49 +3,49 @@
     "Name": "Alice Johnson",
     "Email": "alice@example.com",
     "Password": "hashed_password1",
-    "Lists": "\"Baking Bread",
-    "Avatar": " Lord of the Rings Marathon Party\""
+    "Lists": "Baking Bread, Lord of the Rings Marathon Party",
+    "Avatar": "https://res.cloudinary.com/di6vnxokz/image/upload/v1713998860/TODO-AVATARS/quioilmspgu7kdv3tq0e.webp"
   },
   {
     "Name": "Bob Smith",
     "Email": "bob@example.com",
     "Password": "hashed_password2",
-    "Lists": "\"Plan Trip to NY",
-    "Avatar": " React Hooks Study Session\""
+    "Lists": "Plan Trip to NY, React Hooks Study Session",
+    "Avatar": "https://res.cloudinary.com/di6vnxokz/image/upload/v1713998860/TODO-AVATARS/s5ck0yquxqwsmaalz3zt.webp"
   },
   {
     "Name": "Carol White",
     "Email": "carol@example.com",
     "Password": "hashed_password3",
-    "Lists": "\"Picnic in a Park\"",
+    "Lists": "Picnic in a Park",
     "Avatar": "https://res.cloudinary.com/di6vnxokz/image/upload/v1713998860/TODO-AVATARS/ubuesiyu1bima3mol4bv.webp"
   },
   {
     "Name": "David Lee",
     "Email": "david@example.com",
     "Password": "hashed_password4",
-    "Lists": "\"Mari Kondo My Home",
-    "Avatar": " Grocery List for a BBQ\""
+    "Lists": "Mari Kondo My Home, Grocery List for a BBQ",
+    "Avatar": "https://res.cloudinary.com/di6vnxokz/image/upload/v1713998861/TODO-AVATARS/kyypqfwghjffuittphjz.webp"
   },
   {
     "Name": "Eva Brown",
     "Email": "eva@example.com",
     "Password": "hashed_password5",
-    "Lists": "\"Sleep Routine Backed by Science\"",
+    "Lists": "Sleep Routine Backed by Science",
     "Avatar": "https://res.cloudinary.com/di6vnxokz/image/upload/v1713998860/TODO-AVATARS/nhumunkjhyaqpchbxv5j.webp"
   },
   {
     "Name": "Frank Wright",
     "Email": "frank@example.com",
     "Password": "hashed_password6",
-    "Lists": "\"Job Interview Preparation\"",
+    "Lists": "Job Interview Preparation",
     "Avatar": "https://res.cloudinary.com/di6vnxokz/image/upload/v1713998860/TODO-AVATARS/m7yv4do2i5eosqgs8mef.webp"
   },
   {
     "Name": "Grace Hall",
     "Email": "grace@example.com",
     "Password": "hashed_password7",
-    "Lists": "\"Movies to Watch\"",
+    "Lists": "Movies to Watch",
     "Avatar": "https://res.cloudinary.com/di6vnxokz/image/upload/v1713998860/TODO-AVATARS/ghkzc2wqp770occnlr22.webp"
   }
 ]

@@ -26,7 +26,7 @@ app.use(cors())
 
 connectToDB()
 // getDataFromWebPage()
-readCsvFiles('users.csv')
+readCsvFiles('to-dos.csv')
 
 //ROUTES
 app.use("/user", userRouter)

@@ -2,6 +2,7 @@ import { log } from 'console'
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import {parse} from 'csv-parse/sync'
 
 const readCsvFiles = (document) => {
     const __filename = fileURLToPath(import.meta.url)
@@ -11,26 +12,35 @@ const readCsvFiles = (document) => {
         __dirname,'.','csvs',`${document}`
     )
 
-    const fileText = fs.readFileSync(csvFilePath).toString()
-    const allLines = fileText.split("\n")
+    const fileText = fs.readFileSync(csvFilePath)
 
-    const headers = allLines[0]
-    const dataLines = allLines.slice(1)
+    const records = parse(fileText, {
+        columns: true,
+        skip_empty_lines: true,
+        trim: true,
+        relax_column_count: true,
+        relax: true
+    })
+    // const allLines = fileText.split("\n")
 
-    const fieldNames = headers.split(",")
+    // const headers = allLines[0]
+    // const dataLines = allLines.slice(1)
 
-    let objList = []
+    // const fieldNames = headers.split(",")
 
-    for(let i = 0; i < dataLines.length; i++){
-        let obj = {}
-        const data = dataLines[i].split(',')
-        for(let j = 0; j< fieldNames.length; j++){
-            const fieldName = fieldNames[j]
-            obj[fieldName] = data[j]
-        } 
-        objList.push(obj)
-    }
-    const jsonText = JSON.stringify(objList)
+    // let objList = []
+
+    // for(let i = 0; i < dataLines.length; i++){
+    //     let obj = {}
+    //     const data = dataLines[i].split(',')
+    //     for(let j = 0; j< fieldNames.length; j++){
+    //         const fieldName = fieldNames[j]
+    //         obj[fieldName] = data[j]
+    //     } 
+    //     objList.push(obj)
+    // }
+    const jsonText = JSON.stringify(records)
+
     const originalDocument = document.split('.')
     const documentName = originalDocument.shift()
     const seedsPath = path.join(__dirname, 'seeds')
@@ -38,7 +48,7 @@ const readCsvFiles = (document) => {
 
     fs.writeFileSync(jsonFilePath, jsonText)
 
-  
+  return
 }
 
 export {readCsvFiles}
