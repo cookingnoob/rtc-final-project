@@ -9,7 +9,8 @@ const listSchema = new mongoose.Schema({
   },
   color: String,
   user: {
-    type: String,
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Users",
   },
   sharedUsers: [{ type: String }],
   global: Boolean,

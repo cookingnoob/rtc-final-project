@@ -33,4 +33,46 @@ const seedDB = async (cleanDB) => {
   }
 };
 
-export default seedDB;
+const linkListsToUser = async () => {
+  const users = await User.find();
+  try {
+    for (const user of users) {
+      const lists = await List.find({ user: user.name });
+      const listIDs = lists.map((list) => list._id);
+      user.lists = listIDs;
+
+      await user.save();
+      console.log("se actualizo la id de las listas en los usuarios");
+    }
+  } catch (error) {
+    console.error(`no se pudo ligar usuarios a las listas ${error}`);
+  }
+};
+
+const linkUserIdToLists = async () => {
+  const lists = await List.find();
+  try {
+    for (const list of lists) {
+      const user = await User.findOne({ lists: list._id });
+      list.user = user._id;
+      await list.save();
+      console.log("se guardo el id del usuario en la lista");
+    }
+  } catch (error) {
+    console.error(`no se pudo ligar los usuarios a las listas ${error}`);
+  }
+};
+
+const linkToDosToLists = async () => {
+  const toDos = await ToDo.find();
+  try {
+    for (const todo of toDos) {
+      const list = await List.findOne({ id: todo.listID });
+      console.log(list);
+    }
+  } catch (error) {
+    console.error(`no se pudo ligar las listas a los todos ${error}`);
+  }
+};
+
+export { seedDB, linkListsToUser, linkUserIdToLists, linkToDosToLists };
