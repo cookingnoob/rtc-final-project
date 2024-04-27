@@ -68,7 +68,10 @@ const linkToDosToLists = async () => {
   try {
     for (const todo of toDos) {
       const list = await List.findOne({ id: todo.listID });
-      console.log(list);
+      todo.list = list._id;
+
+      await todo.save();
+      // console.log("se guardaron los id de las listas a los todos");
     }
   } catch (error) {
     console.error(`no se pudo ligar las listas a los todos ${error}`);

@@ -5,7 +5,13 @@ const toDoSchema = new mongoose.Schema({
     type: Number,
     unique: true,
   },
-  listID: Number,
+  listID: {
+    type: Number,
+  },
+  list: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Lists",
+  },
   description: String,
   done: Boolean,
   doneByXDate: String,

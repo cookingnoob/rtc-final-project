@@ -610,6 +610,146 @@
     "files": ""
   },
   {
+    "id": 72,
+    "listID": 8,
+    "description": "Buy coals",
+    "done": true,
+    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
+    "howMuchTimeItTakes": "10 minutes",
+    "notes": "Essential for grilling",
+    "files": ""
+  },
+  {
+    "id": 73,
+    "listID": 8,
+    "description": "Buy apple wood chunks",
+    "done": true,
+    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
+    "howMuchTimeItTakes": "10 minutes",
+    "notes": "Adds smoky flavor to meats",
+    "files": ""
+  },
+  {
+    "id": 74,
+    "listID": 8,
+    "description": "Buy salt",
+    "done": true,
+    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
+    "howMuchTimeItTakes": "5 minutes",
+    "notes": "Basic seasoning",
+    "files": ""
+  },
+  {
+    "id": 75,
+    "listID": 8,
+    "description": "Buy pepper, all kinds",
+    "done": true,
+    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
+    "howMuchTimeItTakes": "5 minutes",
+    "notes": "For seasoning meats",
+    "files": ""
+  },
+  {
+    "id": 76,
+    "listID": 8,
+    "description": "Buy paprika",
+    "done": true,
+    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
+    "howMuchTimeItTakes": "5 minutes",
+    "notes": "Gives color and flavor to meats",
+    "files": ""
+  },
+  {
+    "id": 77,
+    "listID": 8,
+    "description": "Buy cayenne",
+    "done": true,
+    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
+    "howMuchTimeItTakes": "5 minutes",
+    "notes": "Adds heat to dishes",
+    "files": ""
+  },
+  {
+    "id": 78,
+    "listID": 8,
+    "description": "Buy pork butt",
+    "done": true,
+    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
+    "howMuchTimeItTakes": "15 minutes",
+    "notes": "For pulled pork",
+    "files": ""
+  },
+  {
+    "id": 79,
+    "listID": 8,
+    "description": "Buy ribs",
+    "done": true,
+    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
+    "howMuchTimeItTakes": "15 minutes",
+    "notes": "Main dish for BBQ",
+    "files": ""
+  },
+  {
+    "id": 80,
+    "listID": 8,
+    "description": "Buy lighter",
+    "done": true,
+    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
+    "howMuchTimeItTakes": "5 minutes",
+    "notes": "Needed to start the grill",
+    "files": ""
+  },
+  {
+    "id": 81,
+    "listID": 8,
+    "description": "Buy foil",
+    "done": true,
+    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
+    "howMuchTimeItTakes": "5 minutes",
+    "notes": "Useful for cooking and storage",
+    "files": ""
+  },
+  {
+    "id": 82,
+    "listID": 8,
+    "description": "Buy beer",
+    "done": true,
+    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
+    "howMuchTimeItTakes": "10 minutes",
+    "notes": "Beverages for guests",
+    "files": ""
+  },
+  {
+    "id": 83,
+    "listID": 8,
+    "description": "Buy brioche bread",
+    "done": true,
+    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
+    "howMuchTimeItTakes": "10 minutes",
+    "notes": "Goes well with BBQ",
+    "files": ""
+  },
+  {
+    "id": 84,
+    "listID": 8,
+    "description": "Buy chips",
+    "done": true,
+    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
+    "howMuchTimeItTakes": "5 minutes",
+    "notes": "Snacks for the BBQ",
+    "files": ""
+  },
+  {
+    "id": 85,
+    "listID": 8,
+    "description": "Buy mayo",
+    "done": true,
+    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
+    "howMuchTimeItTakes": "5 minutes",
+    "notes": "Condiment for sandwiches",
+    "files": ""
+  },
+  {
     "id": 62,
     "listID": 9,
     "description": "Watch The Shining",
@@ -709,149 +849,10 @@
     "notes": "Dark fantasy with historical context",
     "files": ""
   },
-  {
-    "id": 72,
-    "listID": 10,
-    "description": "Buy coals",
-    "done": true,
-    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
-    "howMuchTimeItTakes": "10 minutes",
-    "notes": "Essential for grilling",
-    "files": ""
-  },
-  {
-    "id": 73,
-    "listID": 10,
-    "description": "Buy apple wood chunks",
-    "done": true,
-    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
-    "howMuchTimeItTakes": "10 minutes",
-    "notes": "Adds smoky flavor to meats",
-    "files": ""
-  },
-  {
-    "id": 74,
-    "listID": 10,
-    "description": "Buy salt",
-    "done": true,
-    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
-    "howMuchTimeItTakes": "5 minutes",
-    "notes": "Basic seasoning",
-    "files": ""
-  },
-  {
-    "id": 75,
-    "listID": 10,
-    "description": "Buy pepper, all kinds",
-    "done": true,
-    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
-    "howMuchTimeItTakes": "5 minutes",
-    "notes": "For seasoning meats",
-    "files": ""
-  },
-  {
-    "id": 76,
-    "listID": 10,
-    "description": "Buy paprika",
-    "done": true,
-    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
-    "howMuchTimeItTakes": "5 minutes",
-    "notes": "Gives color and flavor to meats",
-    "files": ""
-  },
-  {
-    "id": 77,
-    "listID": 10,
-    "description": "Buy cayenne",
-    "done": true,
-    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
-    "howMuchTimeItTakes": "5 minutes",
-    "notes": "Adds heat to dishes",
-    "files": ""
-  },
-  {
-    "id": 78,
-    "listID": 10,
-    "description": "Buy pork butt",
-    "done": true,
-    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
-    "howMuchTimeItTakes": "15 minutes",
-    "notes": "For pulled pork",
-    "files": ""
-  },
-  {
-    "id": 79,
-    "listID": 10,
-    "description": "Buy ribs",
-    "done": true,
-    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
-    "howMuchTimeItTakes": "15 minutes",
-    "notes": "Main dish for BBQ",
-    "files": ""
-  },
-  {
-    "id": 80,
-    "listID": 10,
-    "description": "Buy lighter",
-    "done": true,
-    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
-    "howMuchTimeItTakes": "5 minutes",
-    "notes": "Needed to start the grill",
-    "files": ""
-  },
-  {
-    "id": 81,
-    "listID": 10,
-    "description": "Buy foil",
-    "done": true,
-    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
-    "howMuchTimeItTakes": "5 minutes",
-    "notes": "Useful for cooking and storage",
-    "files": ""
-  },
-  {
-    "id": 82,
-    "listID": 10,
-    "description": "Buy beer",
-    "done": true,
-    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
-    "howMuchTimeItTakes": "10 minutes",
-    "notes": "Beverages for guests",
-    "files": ""
-  },
-  {
-    "id": 83,
-    "listID": 10,
-    "description": "Buy brioche bread",
-    "done": true,
-    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
-    "howMuchTimeItTakes": "10 minutes",
-    "notes": "Goes well with BBQ",
-    "files": ""
-  },
-  {
-    "id": 84,
-    "listID": 10,
-    "description": "Buy chips",
-    "done": true,
-    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
-    "howMuchTimeItTakes": "5 minutes",
-    "notes": "Snacks for the BBQ",
-    "files": ""
-  },
-  {
-    "id": 85,
-    "listID": 10,
-    "description": "Buy mayo",
-    "done": true,
-    "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
-    "howMuchTimeItTakes": "5 minutes",
-    "notes": "Condiment for sandwiches",
-    "files": ""
-  },
+
   {
     "id": 86,
-    "listID": 11,
+    "listID": 10,
     "description": "Study state hook",
     "done": true,
     "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
@@ -861,7 +862,7 @@
   },
   {
     "id": 87,
-    "listID": 11,
+    "listID": 10,
     "description": "Study effect hook",
     "done": true,
     "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
@@ -871,7 +872,7 @@
   },
   {
     "id": 88,
-    "listID": 11,
+    "listID": 10,
     "description": "Study ref hook",
     "done": true,
     "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
@@ -881,7 +882,7 @@
   },
   {
     "id": 89,
-    "listID": 11,
+    "listID": 10,
     "description": "Study context hook",
     "done": true,
     "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
@@ -891,7 +892,7 @@
   },
   {
     "id": 90,
-    "listID": 11,
+    "listID": 10,
     "description": "Study reduce hook",
     "done": true,
     "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
@@ -901,7 +902,7 @@
   },
   {
     "id": 91,
-    "listID": 11,
+    "listID": 10,
     "description": "Create custom hooks",
     "done": true,
     "doneByXDate": "Thu Apr 25 2024 13:51:31 GMT-0600 (Central Standard Time)",
