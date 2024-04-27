@@ -14,6 +14,7 @@ import {
   linkListsToUser,
   linkUserIdToLists,
   linkToDosToLists,
+  deleteKeys,
 } from "./config/seedDb.js";
 
 //CONFIGURATIONS
@@ -37,8 +38,8 @@ connectToDB();
 // readCsvFiles("to-dos.csv");
 // linkListsToUser();
 // linkUserIdToLists();
-linkToDosToLists();
-
+// linkToDosToLists();
+// deleteKeys();
 //ROUTES
 app.use("/user", userRouter);
 

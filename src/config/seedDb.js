@@ -78,4 +78,18 @@ const linkToDosToLists = async () => {
   }
 };
 
-export { seedDB, linkListsToUser, linkUserIdToLists, linkToDosToLists };
+const deleteKeys = async () => {
+  try {
+    const toDos = await ToDo.updateMany({}, { $unset: { listID: "" } });
+    console.log(toDos);
+  } catch (error) {
+    console.error(`error al borrar las claves ${error}`);
+  }
+};
+export {
+  seedDB,
+  linkListsToUser,
+  linkUserIdToLists,
+  linkToDosToLists,
+  deleteKeys,
+};
