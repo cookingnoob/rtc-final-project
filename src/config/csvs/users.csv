@@ -1,4 +1,4 @@
-Name,Email,Password,Lists,Avatar
+name,email,password,lists,avatar
 Alice Johnson,alice@example.com,hashed_password1,"Baking Bread, Lord of the Rings Marathon Party",https://res.cloudinary.com/di6vnxokz/image/upload/v1713998860/TODO-AVATARS/quioilmspgu7kdv3tq0e.webp
 Bob Smith,bob@example.com,hashed_password2,"Plan Trip to NY, React Hooks Study Session",https://res.cloudinary.com/di6vnxokz/image/upload/v1713998860/TODO-AVATARS/s5ck0yquxqwsmaalz3zt.webp
 Carol White,carol@example.com,hashed_password3,"Picnic in a Park",https://res.cloudinary.com/di6vnxokz/image/upload/v1713998860/TODO-AVATARS/ubuesiyu1bima3mol4bv.webp

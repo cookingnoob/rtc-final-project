@@ -1,16 +1,12 @@
 import mongoose from "mongoose";
 
 const listSchema = new mongoose.Schema({
-  id: {
-    type: Number,
-  },
   listName: {
     type: String,
   },
   color: String,
   user: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "Users",
+    type: String,
   },
   sharedUsers: [{ type: String }],
   global: Boolean,

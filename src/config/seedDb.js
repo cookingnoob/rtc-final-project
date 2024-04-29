@@ -1,9 +1,6 @@
 import List from "../models/lists.js";
 import ToDo from "../models/to-dos.js";
 import User from "../models/user.js";
-import { listSeeds } from "./seeds/lists.js";
-import { toDoSeeds } from "./seeds/to-dos.js";
-import { userSeeds } from "./seeds/users.js";
 
 const seedDB = async (cleanDB) => {
   try {

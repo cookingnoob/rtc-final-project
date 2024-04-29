@@ -1,4 +1,4 @@
-ListName,Color,User,SharedUsers,Global,Ratings
+listName,color,user,sharedUsers,global,ratings
 "Baking Bread","#f8b400","Alice Johnson","Bob Smith, Carol White",True,4
 "Plan Trip to NY","#00a2ff","Bob Smith","Alice Johnson, Eva Brown",True,5
 "Picnic in a Park","#3cb371","Carol White","David Lee, Grace Hall",True,3
