@@ -1,92 +1,92 @@
 list,description,done,doneByXDate,howMuchTimeItTakes,notes
-"Baking Bread","Feed sourdough night before","false","2024-04-29","10 minutes","Prepare starter for next day baking",
-"Baking Bread","Mix ingredients","false","2024-04-30","15 minutes","Follow specific bread recipe",
-"Baking Bread","Let it rest 30 minutes","false","2024-04-30","30 minutes","Allow dough to rest and rise initially",
-"Baking Bread","Stretch and fold into a ball, repeat 4 times","false","2024-04-30","2 hours","Every 30 mins do a stretch and fold",
-"Baking Bread","Shape into a ball and let it rest 12 hours in fridge","false","2024-05-01","12 hours","Overnight fermentation in the fridge",
-"Baking Bread","Preheat oven and cast iron for 1 hr at 450f","false","2024-05-01","1 hour","Ensure oven is at optimal temperature",
-"Baking Bread","Put the bread in cast iron and score","false","2024-05-01","40 minutes","Score bread for aesthetic and practical baking reasons",
-"Baking Bread","Bake extra 10-20 minutes until golden brown","false","2024-05-01","20 minutes","Final bake to achieve crust color and texture",
-"Baking Bread","Let it cool for 1 hour","false","2024-05-01","1 hour","Cool on a wire rack to maintain crust texture",
-"Plan Trip to NY","Buy tickets for Met Museum","false","2024-05-01","15 minutes","Purchase online to avoid queues",
-"Plan Trip to NY","Buy tickets for WTC Sky View","false","2024-05-02","15 minutes","Check for weather conditions before booking",
-"Plan Trip to NY","Make reservations for Peter Luger","false","2024-05-03","20 minutes","Book well in advance due to popularity",
-"Plan Trip to NY","Buy tickets for NY Yankees","false","2024-05-04","20 minutes","Select optimal game and seating",
-"Plan Trip to NY","Decide what Broadway show to watch and buy tickets","false","2024-05-05","30 minutes","Choose based on reviews and availability",
-"Plan Trip to NY","Make hotel reservations","false","2024-05-06","25 minutes","Compare rates and locations in Manhattan",
-"Plan Trip to NY","Make flight reservations","false","2024-05-07","30 minutes","Book flights aligning with travel dates",
-"Plan Trip to NY","See climate to choose proper clothing","false","2024-05-08","10 minutes","Check weather forecast week before packing",
-"Plan Trip to NY","Highlight good restaurants around Central Park","false","2024-05-09","30 minutes","Look for variety and top-rated spots",
-"Plan Trip to NY","List of best sushi bars in town","false","2024-05-10","30 minutes","Research and note down top-rated sushi bars",
-"Picnic in a Park","Buy picnic basket","false","2024-05-01","15 minutes","Choose a large enough basket for all food items",
-"Picnic in a Park","Buy sunscreen","false","2024-05-02","5 minutes","SPF 50+ recommended",
-"Picnic in a Park","Buy cured meats, cheeses, artisan bread and wine and sodas","false","2024-05-03","30 minutes","Select a variety to cater to all tastes",
-"Picnic in a Park","Check if partner has bicycle ready","false","2024-05-04","10 minutes","Ensure both bicycles are in good condition",
-"Picnic in a Park","Check my bicycle","false","2024-05-05","15 minutes","Perform basic maintenance if necessary",
-"Picnic in a Park","Check climate","false","2024-05-06","5 minutes","Plan for weather-appropriate clothing and items",
-"Picnic in a Park","Prepare backpack with sunglasses, cards, keys","false","2024-05-07","10 minutes","Pack all essentials for a day out",
-"Mari Kondo My Home","Take all of my clothes out","false","2024-04-15","1 hour","Pile clothes on the bed to see everything",
-"Mari Kondo My Home","Process clothes to see if they spark joy or they go","false","2024-04-15","2 hours","Decide which clothes to keep",
-"Mari Kondo My Home","Put clothes where they belong","false","2024-04-16","1 hour","Organize clothes back into closet neatly",
-"Mari Kondo My Home","Take all books out","false","2024-04-17","30 minutes","Gather all books from around the house",
-"Mari Kondo My Home","Process books","false","2024-04-18","1 hour","Decide which books to keep",
-"Mari Kondo My Home","Put books where they belong","false","2024-04-19","30 minutes","Reorganize books on shelves",
-"Mari Kondo My Home","Take all miscellaneous things out","false","2024-04-20","1 hour","Sort through miscellaneous items",
-"Mari Kondo My Home","Process them","false","2024-04-21","2 hours","Determine what to keep or discard",
-"Mari Kondo My Home","Put the miscellaneous items where they belong","false","2024-04-22","1 hour","Organize items neatly in their places",
-"Mari Kondo My Home","Take all sentimental value items out","false","2024-04-23","30 minutes","Handle with care, lay out items to view",
-"Mari Kondo My Home","Process them","false","2024-04-24","1 hour","Decide what is truly valuable and what can be let go",
-"Mari Kondo My Home","Take them back where they belong","false","2024-04-25","30 minutes","Store sentimental items in a respectful place",
-"Sleep Routine Backed by Science","Turn bright lights off 2 hours before bed","false","2024-06-01","2 hours","Prepares body for sleep by reducing light exposure",
-"Sleep Routine Backed by Science","Relax by doing a calm activity like reading, stretching","false","2024-06-01","30 minutes","Helps decrease stress and relax the body",
-"Sleep Routine Backed by Science","Prepare chamomile tea","false","2024-06-01","10 minutes","Chamomile is known for its calming effects",
-"Sleep Routine Backed by Science","Prepare aromatherapy with lavender","false","2024-06-01","5 minutes","Lavender helps in reducing sleep anxiety",
-"Sleep Routine Backed by Science","Get into comfy clothes","false","2024-06-01","5 minutes","Comfortable clothing aids better sleep",
-"Sleep Routine Backed by Science","Get a glass of water for when you wake up","false","2024-06-01","2 minutes","Staying hydrated is important after a night's sleep",
-"Sleep Routine Backed by Science","Meditate or listen to ASMR recordings to help you fall asleep","false","2024-06-01","30 minutes","Meditation or ASMR can significantly improve sleep quality",
-"Job Interview Preparation","Update CV","false","2024-07-01","1 hour","Keep your professional information up to date",
-"Job Interview Preparation","Update LinkedIn profile","false","2024-07-01","30 minutes","Important for maintaining a professional online presence",
-"Job Interview Preparation","Research companies that hire people in your position","false","2024-07-01","2 hours","Understand potential employers and the job market",
-"Job Interview Preparation","Apply to job offers","false","2024-07-01","3 hours","The more applications you submit, the better your chances",
-"Job Interview Preparation","Prepare by asking a friend to interview you and give you feedback","false","2024-07-01","1 hour","Mock interviews can greatly improve your real interview performance",
-"Job Interview Preparation","Check dressing options to give the best impression","false","2024-07-01","30 minutes","Proper attire is crucial for a positive first impression",
-"Job Interview Preparation","Be patient, it takes time and don't take it personal, rinse and repeat as necessary","false","2024-07-01","Ongoing","Job hunting is a marathon, not a sprint",
-"Lord of the Rings Marathon Party","Invite friends","false","2024-08-01","20 minutes","Gather your fellow LOTR enthusiasts",
-"Lord of the Rings Marathon Party","Buy movies","false","2024-08-01","30 minutes","Ensure you have all the films ready for the marathon",
-"Lord of the Rings Marathon Party","Buy tons of potatoes","false","2024-08-01","15 minutes","Essential for the 'PO-TA-TOES' dish",
-"Lord of the Rings Marathon Party","Boil 'em","false","2024-08-01","30 minutes","Start the cooking process for the feast",
-"Lord of the Rings Marathon Party","Mash 'em","false","2024-08-01","20 minutes","Prepare mashed potatoes as part of the themed meal",
-"Lord of the Rings Marathon Party","Stick 'em in a stew","false","2024-08-01","30 minutes","Complete the iconic dish from the series",
-"Lord of the Rings Marathon Party","Buy beer and sodas","false","2024-08-01","30 minutes","Stock up on drinks for the marathon",
-"Lord of the Rings Marathon Party","Get comfy clothes","false","2024-08-01","15 minutes","Comfort is key for a movie marathon",
-"Lord of the Rings Marathon Party","Ask friends to bring other LOTR themed food","false","2024-08-01","20 minutes","Make it a potluck with themed snacks from others",
-"Movies to Watch","Watch The Shining","false","","2 hours","Classic psychological horror",
-"Movies to Watch","Watch Spirited Away","false","","2 hours","Acclaimed animated fantasy film",
-"Movies to Watch","Watch Birdman","false","","2 hours","Dramatic comedy that explores fame and relevance",
-"Movies to Watch","Watch The Godfather","false","","3 hours","Epic mafia saga",
-"Movies to Watch","Watch Mad Max Fury Road","false","","2 hours","Action-packed post-apocalyptic film",
-"Movies to Watch","Watch The Grand Budapest Hotel","false","","1.5 hours","Comedy-drama with visual and narrative style",
-"Movies to Watch","Watch [REC]","false","","1.5 hours","Spanish horror film with found footage style",
-"Movies to Watch","Watch Alien","false","","2 hours","Groundbreaking sci-fi horror",
-"Movies to Watch","Watch Blade Runner 2049","false","","2.5 hours","Sequel to the sci-fi classic Blade Runner",
-"Movies to Watch","Watch Pan's Labyrinth","false","","2 hours","Dark fantasy with historical context",
-"Grocery List for a BBQ","Buy coals","false","","10 minutes","Essential for grilling",
-"Grocery List for a BBQ","Buy apple wood chunks","false","","10 minutes","Adds smoky flavor to meats",
-"Grocery List for a BBQ","Buy salt","false","","5 minutes","Basic seasoning",
-"Grocery List for a BBQ","Buy pepper, all kinds","false","","5 minutes","For seasoning meats",
-"Grocery List for a BBQ","Buy paprika","false","","5 minutes","Gives color and flavor to meats",
-"Grocery List for a BBQ","Buy cayenne","false","","5 minutes","Adds heat to dishes",
-"Grocery List for a BBQ","Buy pork butt","false","","15 minutes","For pulled pork",
-"Grocery List for a BBQ","Buy ribs","false","","15 minutes","Main dish for BBQ",
-"Grocery List for a BBQ","Buy lighter","false","","5 minutes","Needed to start the grill",
-"Grocery List for a BBQ","Buy foil","false","","5 minutes","Useful for cooking and storage",
-"Grocery List for a BBQ","Buy beer","false","","10 minutes","Beverages for guests",
-"Grocery List for a BBQ","Buy brioche bread","false","","10 minutes","Goes well with BBQ",
-"Grocery List for a BBQ","Buy chips","false","","5 minutes","Snacks for the BBQ",
-"Grocery List for a BBQ","Buy mayo","false","","5 minutes","Condiment for sandwiches",
-"React Hooks Study Session","Study state hook","false","","1 hour","Learn how useState manages state in functional components",
-"React Hooks Study Session","Study effect hook","false","","1 hour","Understand useEffect for side effects in functional components",
-"React Hooks Study Session","Study ref hook","false","","1 hour","Explore useRef for referencing DOM elements",
-"React Hooks Study Session","Study context hook","false","","1 hour","Use React Context API with useContext for global state",
-"React Hooks Study Session","Study reduce hook","false","","1 hour","Learn how useReducer works for state management",
-"React Hooks Study Session","Create custom hooks","false","","2 hours","Develop custom hooks for reusable logic",
+"Baking Bread","Feed sourdough night before","false","2024-04-29","10 minutes","Prepare starter for next day baking"
+"Baking Bread","Mix ingredients","false","2024-04-30","15 minutes","Follow specific bread recipe"
+"Baking Bread","Let it rest 30 minutes","false","2024-04-30","30 minutes","Allow dough to rest and rise initially"
+"Baking Bread","Stretch and fold into a ball, repeat 4 times","false","2024-04-30","2 hours","Every 30 mins do a stretch and fold"
+"Baking Bread","Shape into a ball and let it rest 12 hours in fridge","false","2024-05-01","12 hours","Overnight fermentation in the fridge"
+"Baking Bread","Preheat oven and cast iron for 1 hr at 450f","false","2024-05-01","1 hour","Ensure oven is at optimal temperature"
+"Baking Bread","Put the bread in cast iron and score","false","2024-05-01","40 minutes","Score bread for aesthetic and practical baking reasons"
+"Baking Bread","Bake extra 10-20 minutes until golden brown","false","2024-05-01","20 minutes","Final bake to achieve crust color and texture"
+"Baking Bread","Let it cool for 1 hour","false","2024-05-01","1 hour","Cool on a wire rack to maintain crust texture"
+"Plan Trip to NY","Buy tickets for Met Museum","false","2024-05-01","15 minutes","Purchase online to avoid queues"
+"Plan Trip to NY","Buy tickets for WTC Sky View","false","2024-05-02","15 minutes","Check for weather conditions before booking"
+"Plan Trip to NY","Make reservations for Peter Luger","false","2024-05-03","20 minutes","Book well in advance due to popularity"
+"Plan Trip to NY","Buy tickets for NY Yankees","false","2024-05-04","20 minutes","Select optimal game and seating"
+"Plan Trip to NY","Decide what Broadway show to watch and buy tickets","false","2024-05-05","30 minutes","Choose based on reviews and availability"
+"Plan Trip to NY","Make hotel reservations","false","2024-05-06","25 minutes","Compare rates and locations in Manhattan"
+"Plan Trip to NY","Make flight reservations","false","2024-05-07","30 minutes","Book flights aligning with travel dates"
+"Plan Trip to NY","See climate to choose proper clothing","false","2024-05-08","10 minutes","Check weather forecast week before packing"
+"Plan Trip to NY","Highlight good restaurants around Central Park","false","2024-05-09","30 minutes","Look for variety and top-rated spots"
+"Plan Trip to NY","List of best sushi bars in town","false","2024-05-10","30 minutes","Research and note down top-rated sushi bars"
+"Picnic in a Park","Buy picnic basket","false","2024-05-01","15 minutes","Choose a large enough basket for all food items"
+"Picnic in a Park","Buy sunscreen","false","2024-05-02","5 minutes","SPF 50+ recommended"
+"Picnic in a Park","Buy cured meats, cheeses, artisan bread and wine and sodas","false","2024-05-03","30 minutes","Select a variety to cater to all tastes"
+"Picnic in a Park","Check if partner has bicycle ready","false","2024-05-04","10 minutes","Ensure both bicycles are in good condition"
+"Picnic in a Park","Check my bicycle","false","2024-05-05","15 minutes","Perform basic maintenance if necessary"
+"Picnic in a Park","Check climate","false","2024-05-06","5 minutes","Plan for weather-appropriate clothing and items"
+"Picnic in a Park","Prepare backpack with sunglasses, cards, keys","false","2024-05-07","10 minutes","Pack all essentials for a day out"
+"Mari Kondo My Home","Take all of my clothes out","false","2024-04-15","1 hour","Pile clothes on the bed to see everything"
+"Mari Kondo My Home","Process clothes to see if they spark joy or they go","false","2024-04-15","2 hours","Decide which clothes to keep"
+"Mari Kondo My Home","Put clothes where they belong","false","2024-04-16","1 hour","Organize clothes back into closet neatly"
+"Mari Kondo My Home","Take all books out","false","2024-04-17","30 minutes","Gather all books from around the house"
+"Mari Kondo My Home","Process books","false","2024-04-18","1 hour","Decide which books to keep"
+"Mari Kondo My Home","Put books where they belong","false","2024-04-19","30 minutes","Reorganize books on shelves"
+"Mari Kondo My Home","Take all miscellaneous things out","false","2024-04-20","1 hour","Sort through miscellaneous items"
+"Mari Kondo My Home","Process them","false","2024-04-21","2 hours","Determine what to keep or discard"
+"Mari Kondo My Home","Put the miscellaneous items where they belong","false","2024-04-22","1 hour","Organize items neatly in their places"
+"Mari Kondo My Home","Take all sentimental value items out","false","2024-04-23","30 minutes","Handle with care, lay out items to view"
+"Mari Kondo My Home","Process them","false","2024-04-24","1 hour","Decide what is truly valuable and what can be let go"
+"Mari Kondo My Home","Take them back where they belong","false","2024-04-25","30 minutes","Store sentimental items in a respectful place"
+"Sleep Routine Backed by Science","Turn bright lights off 2 hours before bed","false","2024-06-01","2 hours","Prepares body for sleep by reducing light exposure"
+"Sleep Routine Backed by Science","Relax by doing a calm activity like reading, stretching","false","2024-06-01","30 minutes","Helps decrease stress and relax the body"
+"Sleep Routine Backed by Science","Prepare chamomile tea","false","2024-06-01","10 minutes","Chamomile is known for its calming effects"
+"Sleep Routine Backed by Science","Prepare aromatherapy with lavender","false","2024-06-01","5 minutes","Lavender helps in reducing sleep anxiety"
+"Sleep Routine Backed by Science","Get into comfy clothes","false","2024-06-01","5 minutes","Comfortable clothing aids better sleep"
+"Sleep Routine Backed by Science","Get a glass of water for when you wake up","false","2024-06-01","2 minutes","Staying hydrated is important after a night's sleep"
+"Sleep Routine Backed by Science","Meditate or listen to ASMR recordings to help you fall asleep","false","2024-06-01","30 minutes","Meditation or ASMR can significantly improve sleep quality"
+"Job Interview Preparation","Update CV","false","2024-07-01","1 hour","Keep your professional information up to date"
+"Job Interview Preparation","Update LinkedIn profile","false","2024-07-01","30 minutes","Important for maintaining a professional online presence"
+"Job Interview Preparation","Research companies that hire people in your position","false","2024-07-01","2 hours","Understand potential employers and the job market"
+"Job Interview Preparation","Apply to job offers","false","2024-07-01","3 hours","The more applications you submit, the better your chances"
+"Job Interview Preparation","Prepare by asking a friend to interview you and give you feedback","false","2024-07-01","1 hour","Mock interviews can greatly improve your real interview performance"
+"Job Interview Preparation","Check dressing options to give the best impression","false","2024-07-01","30 minutes","Proper attire is crucial for a positive first impression"
+"Job Interview Preparation","Be patient, it takes time and don't take it personal, rinse and repeat as necessary","false","2024-07-01","Ongoing","Job hunting is a marathon, not a sprint"
+"Lord of the Rings Marathon Party","Invite friends","false","2024-08-01","20 minutes","Gather your fellow LOTR enthusiasts"
+"Lord of the Rings Marathon Party","Buy movies","false","2024-08-01","30 minutes","Ensure you have all the films ready for the marathon"
+"Lord of the Rings Marathon Party","Buy tons of potatoes","false","2024-08-01","15 minutes","Essential for the 'PO-TA-TOES' dish"
+"Lord of the Rings Marathon Party","Boil 'em","false","2024-08-01","30 minutes","Start the cooking process for the feast"
+"Lord of the Rings Marathon Party","Mash 'em","false","2024-08-01","20 minutes","Prepare mashed potatoes as part of the themed meal"
+"Lord of the Rings Marathon Party","Stick 'em in a stew","false","2024-08-01","30 minutes","Complete the iconic dish from the series"
+"Lord of the Rings Marathon Party","Buy beer and sodas","false","2024-08-01","30 minutes","Stock up on drinks for the marathon"
+"Lord of the Rings Marathon Party","Get comfy clothes","false","2024-08-01","15 minutes","Comfort is key for a movie marathon"
+"Lord of the Rings Marathon Party","Ask friends to bring other LOTR themed food","false","2024-08-01","20 minutes","Make it a potluck with themed snacks from others"
+"Movies to Watch","Watch The Shining","false","","2 hours","Classic psychological horror"
+"Movies to Watch","Watch Spirited Away","false","","2 hours","Acclaimed animated fantasy film"
+"Movies to Watch","Watch Birdman","false","","2 hours","Dramatic comedy that explores fame and relevance"
+"Movies to Watch","Watch The Godfather","false","","3 hours","Epic mafia saga"
+"Movies to Watch","Watch Mad Max Fury Road","false","","2 hours","Action-packed post-apocalyptic film"
+"Movies to Watch","Watch The Grand Budapest Hotel","false","","1.5 hours","Comedy-drama with visual and narrative style"
+"Movies to Watch","Watch [REC]","false","","1.5 hours","Spanish horror film with found footage style"
+"Movies to Watch","Watch Alien","false","","2 hours","Groundbreaking sci-fi horror"
+"Movies to Watch","Watch Blade Runner 2049","false","","2.5 hours","Sequel to the sci-fi classic Blade Runner"
+"Movies to Watch","Watch Pan's Labyrinth","false","","2 hours","Dark fantasy with historical context"
+"Grocery List for a BBQ","Buy coals","false","","10 minutes","Essential for grilling"
+"Grocery List for a BBQ","Buy apple wood chunks","false","","10 minutes","Adds smoky flavor to meats"
+"Grocery List for a BBQ","Buy salt","false","","5 minutes","Basic seasoning"
+"Grocery List for a BBQ","Buy pepper, all kinds","false","","5 minutes","For seasoning meats"
+"Grocery List for a BBQ","Buy paprika","false","","5 minutes","Gives color and flavor to meats"
+"Grocery List for a BBQ","Buy cayenne","false","","5 minutes","Adds heat to dishes"
+"Grocery List for a BBQ","Buy pork butt","false","","15 minutes","For pulled pork"
+"Grocery List for a BBQ","Buy ribs","false","","15 minutes","Main dish for BBQ"
+"Grocery List for a BBQ","Buy lighter","false","","5 minutes","Needed to start the grill"
+"Grocery List for a BBQ","Buy foil","false","","5 minutes","Useful for cooking and storage"
+"Grocery List for a BBQ","Buy beer","false","","10 minutes","Beverages for guests"
+"Grocery List for a BBQ","Buy brioche bread","false","","10 minutes","Goes well with BBQ"
+"Grocery List for a BBQ","Buy chips","false","","5 minutes","Snacks for the BBQ"
+"Grocery List for a BBQ","Buy mayo","false","","5 minutes","Condiment for sandwiches"
+"React Hooks Study Session","Study state hook","false","","1 hour","Learn how useState manages state in functional components"
+"React Hooks Study Session","Study effect hook","false","","1 hour","Understand useEffect for side effects in functional components"
+"React Hooks Study Session","Study ref hook","false","","1 hour","Explore useRef for referencing DOM elements"
+"React Hooks Study Session","Study context hook","false","","1 hour","Use React Context API with useContext for global state"
+"React Hooks Study Session","Study reduce hook","false","","1 hour","Learn how useReducer works for state management"
+"React Hooks Study Session","Create custom hooks","false","","2 hours","Develop custom hooks for reusable logic"

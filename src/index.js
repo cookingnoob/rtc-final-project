@@ -33,7 +33,7 @@ app.use(cors());
 connectToDB();
 //Para convertir los csv a objetos de js o json.
 //Acepta un parametro que es el nombre del archivo que se va a leer
-readCsvFiles("to-dos.csv");
+readCsvFiles("lists.csv");
 //llenar la bbdd y enlazar las ids de las semillas
 //seedDB(true);
 // linkListsToUser();

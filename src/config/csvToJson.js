@@ -26,24 +26,23 @@ const readCsvFiles = (document) => {
     } else if (document === "lists.csv") {
       return records.map((record) => {
         return {
-          id: Number(record.ID),
-          listName: record.ListName,
-          color: record.Color,
-          user: record.User,
-          sharedUsers: record.SharedUsers.split(","),
-          global: Boolean(record.Global),
-          ratings: Number(record.Ratings),
+          listName: record.listName,
+          color: record.color,
+          user: record.user,
+          sharedUsers: record.sharedUsers.split(","),
+          global: Boolean(record.global),
+          ratings: Number(record.ratings),
         };
       });
     } else if (document === "to-dos.csv") {
       return records.map((record) => {
         return {
-          list: record.ListID,
-          description: record.Description,
-          done: Boolean(record.Done),
-          doneByXDate: Date(record.DoneByXDate),
-          howMuchTimeItTakes: record.HowMuchTimeItTakes,
-          notes: record.Notes,
+          list: record.list,
+          description: record.description,
+          done: Boolean(record.done),
+          doneByXDate: Date(record.doneByXDate),
+          howMuchTimeItTakes: record.howMuchTimeItTakes,
+          notes: record.notes,
         };
       });
     }

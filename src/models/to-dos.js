@@ -1,16 +1,12 @@
 import mongoose from "mongoose";
 
 const toDoSchema = new mongoose.Schema({
-  list: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "Lists",
-  },
+  list: String,
   description: String,
   done: Boolean,
-  doneByXDate: String,
+  doneByXDate: Date,
   howMuchTimeItTakes: String,
   notes: String,
-  files: String,
 });
 
 const ToDo = mongoose.model("Todos", toDoSchema);
