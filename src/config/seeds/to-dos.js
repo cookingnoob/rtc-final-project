@@ -1,4 +1,4 @@
-export const allTodos = [
+export const todosSeeds = [
   {
     list: "Baking Bread",
     description: "Feed sourdough night before",

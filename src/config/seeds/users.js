@@ -1,4 +1,4 @@
-[
+export const userSeeds = [
   {
     name: "Alice Johnson",
     email: "alice@example.com",

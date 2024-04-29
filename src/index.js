@@ -32,11 +32,11 @@ app.use(cors());
 
 //CSV A JSON
 //Acepta un parametro obligatorio que es el nombre del archivo que se va a leer
-readCsvFiles();
+//readCsvFiles("users.csv");
 
 connectToDB();
 //llenar la bbdd y enlazar las ids de las semillas
-//seedDB(true);
+// seedDB(true);
 // linkListsToUser();
 // linkUserIdToLists();
 // linkToDosToLists();

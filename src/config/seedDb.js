@@ -1,6 +1,9 @@
 import List from "../models/lists.js";
 import ToDo from "../models/to-dos.js";
 import User from "../models/user.js";
+import { listSeeds } from "./seeds/lists.js";
+import { todosSeeds } from "./seeds/to-dos.js";
+import { userSeeds } from "./seeds/users.js";
 
 const seedDB = async (cleanDB) => {
   try {
@@ -20,7 +23,7 @@ const seedDB = async (cleanDB) => {
     await List.insertMany(listSeeds);
     console.log("se subieron las seeds de List");
 
-    await ToDo.insertMany(toDoSeeds);
+    await ToDo.insertMany(todosSeeds);
     console.log("se subieron las seeds de To dos");
 
     await User.insertMany(userSeeds);

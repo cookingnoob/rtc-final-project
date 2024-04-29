@@ -1,4 +1,4 @@
-[
+export const listSeeds = [
   {
     listName: "Baking Bread",
     color: "#f8b400",

@@ -21,8 +21,7 @@ const userSchema = new mongoose.Schema({
   },
   lists: [
     {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Lists",
+      type: String,
     },
   ],
   avatar: {
