@@ -5,6 +5,10 @@ import { fileURLToPath } from "url";
 import { parse } from "csv-parse/sync";
 
 const readCsvFiles = (document) => {
+  if (!document || document === "") {
+    console.error("no especificaste el archivo csv a transformar");
+    return;
+  }
   const __filename = fileURLToPath(import.meta.url);
   const __dirname = path.dirname(__filename);
 
@@ -16,11 +20,11 @@ const readCsvFiles = (document) => {
     if (document === "users.csv") {
       return records.map((record) => {
         return {
-          name: record.Name,
-          email: record.Email,
-          password: record.Password,
-          lists: record.Lists.split(","),
-          avatar: record.Avatar,
+          name: record.name,
+          email: record.email,
+          password: record.password,
+          lists: record.lists.split(","),
+          avatar: record.avatar,
         };
       });
     } else if (document === "lists.csv") {

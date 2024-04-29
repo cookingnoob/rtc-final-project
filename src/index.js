@@ -30,10 +30,11 @@ app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 
+//CSV A JSON
+//Acepta un parametro obligatorio que es el nombre del archivo que se va a leer
+readCsvFiles();
+
 connectToDB();
-//Para convertir los csv a objetos de js o json.
-//Acepta un parametro que es el nombre del archivo que se va a leer
-readCsvFiles("lists.csv");
 //llenar la bbdd y enlazar las ids de las semillas
 //seedDB(true);
 // linkListsToUser();
