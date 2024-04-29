@@ -51,9 +51,13 @@ const linkListsToUser = async () => {
 
 const linkUserIdToLists = async () => {
   const lists = await List.find();
+
+  // lists.map((list) => console.log(`id de la lista ${list._id}`));
+  // users.map((user) => console.log(`id de usuarios listas ${user.lists}`));
+
   try {
     for (const list of lists) {
-      const user = await User.findOne({ lists: list._id });
+      const user = await User.findOne({ name: list.user });
       list.user = user._id;
       await list.save();
       console.log("se guardo el id del usuario en la lista");
