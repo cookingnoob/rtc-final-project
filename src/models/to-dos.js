@@ -1,13 +1,6 @@
 import mongoose from "mongoose";
 
 const toDoSchema = new mongoose.Schema({
-  id: {
-    type: Number,
-    unique: true,
-  },
-  listID: {
-    type: Number,
-  },
   list: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Lists",

@@ -39,7 +39,7 @@ connectToDB();
 // linkListsToUser();
 // linkUserIdToLists();
 // linkToDosToLists();
-// deleteKeys();
+deleteKeys();
 //ROUTES
 app.use("/user", userRouter);
 

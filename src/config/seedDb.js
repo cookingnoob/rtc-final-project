@@ -80,8 +80,8 @@ const linkToDosToLists = async () => {
 
 const deleteKeys = async () => {
   try {
-    const toDos = await ToDo.updateMany({}, { $unset: { listID: "" } });
-    console.log(toDos);
+    const toDos = await ToDo.find();
+    toDos.forEach((todo) => console.log(todo.id));
   } catch (error) {
     console.error(`error al borrar las claves ${error}`);
   }
