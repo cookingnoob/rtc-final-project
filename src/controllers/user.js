@@ -2,6 +2,7 @@ import { query, validationResult } from "express-validator";
 import bcrypt from "bcrypt";
 import User from "../models/user.js";
 import jwt from 'jsonwebtoken'
+import List from "../models/lists.js";
 
 const registerUser = async (req, res, next) => {
 
@@ -14,15 +15,20 @@ const registerUser = async (req, res, next) => {
 
     const userExists = await User.findOne({ email: email });
     if (userExists) {
-      res.status(400).json({ errorMessage: "este usuario ya está registrado" });
+      const error = new Error('este usuario ya está registrado')
+      error.status = 400
+      next(error)
     }
 
     const nameExists = await User.findOne({ name: name })
     if (nameExists) {
-      res.status(400).json({ errorMessage: "este nombre de usuario ya está registrado" });
+      const error = new Error('este nombre de usuario ya está registrado')
+      error.status = 400
+      next(error)
     }
 
     const hashedPassword = await bcrypt.hash(password, 10);
+
 
     const newUser = new User({
       name: name,
@@ -30,7 +36,19 @@ const registerUser = async (req, res, next) => {
       password: hashedPassword,
     });
 
+
+    const generalList = new List({
+      listName: 'General',
+      color: '#4EA3F2',
+      user: newUser._id,
+      global: false,
+      ratings: 0,
+    })
+
+    newUser.lists.push(generalList._id)
+
     await newUser.save();
+    await generalList.save()
 
     const payload = { id: newUser._id }
     const token = jwt.sign(payload, process.env.JWT_TOKEN, { expiresIn: '1h' })
