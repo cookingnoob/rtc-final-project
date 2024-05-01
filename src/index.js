@@ -6,7 +6,7 @@ import path from "path";
 import helmet from "helmet";
 import morgan from "morgan";
 import bodyParser from "body-parser";
-import userRouter from "./routes/user.js";
+import { userRouter } from "./routes/user.js";
 import connectToDB from "./config/connectDB.js";
 import { readCsvFiles } from "./config/csvToJson.js";
 import {
