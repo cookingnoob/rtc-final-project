@@ -16,6 +16,8 @@ import {
   linkToDosToLists,
   deleteKeys,
 } from "./config/seedDb.js";
+import { listsRouter } from "./routes/lists.js";
+
 
 //CONFIGURATIONS
 const __filename = fileURLToPath(import.meta.url);
@@ -41,15 +43,19 @@ connectToDB();
 // linkUserIdToLists();
 // linkToDosToLists();
 //deleteKeys();
+
 //ROUTES
+// app.use("/", (req, res) => {
+//   res.send("<h1>Bienvenido!</h1>");
+// });
+
 app.use("/user", userRouter);
 
-app.use("/", (req, res) => {
-  res.send("<h1>Bienvenido!</h1>");
-});
+
+app.use('/lists', listsRouter)
 
 const PORT = 3001;
 
 app.listen(PORT, () => {
-  console.log(`escuchando solicitudes de ${PORT}`);
+  console.log(`corriendo en localhost:${PORT}`);
 });
