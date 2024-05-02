@@ -16,9 +16,7 @@ const getGlobalLists = async (req, res, next) => {
 const getUserLists = async (req, res, next) => {
   try {
     const { id } = req.user
-    const userId = req.user.id
     const user = await User.findOne({ _id: id }).populate('lists')
-
     res.status(200).json({ data: user.lists })
   } catch (error) {
     next(error)

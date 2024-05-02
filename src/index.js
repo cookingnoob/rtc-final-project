@@ -46,13 +46,23 @@ connectToDB();
 //deleteKeys();
 
 //ROUTES
-// app.use("/", (req, res) => {
-//   res.send("<h1>Bienvenido!</h1>");
-// });
 
 app.use("/user", userRouter);
 app.use('/lists', listsRouter)
 app.use('todos', todoRouter)
+
+app.use((err, req, res, next) => {
+  console.error(err)
+  if (err.status) {
+    res.status(err.status).json({ error: err.message })
+  } else if (err.name === 'ValidationError') {
+    res.status(400).json({ error: 'Validación fallida', error: err.message })
+  } else if (err.code && err.code === 11000) {
+    res.status(409).json({ error: 'La informacion se está duplicando' })
+  } else {
+    res.status(500).json({ error: 'Error interno en el servidor' })
+  }
+})
 
 const PORT = 3001;
 
