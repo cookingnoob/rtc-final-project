@@ -69,18 +69,18 @@ const linkUserIdToLists = async () => {
 
 const linkToDosToLists = async () => {
   const toDos = await ToDo.find();
-  toDos.map(todo => console.log(todo))
-  // try {
-  //   for (const todo of toDos) {
-  //     const list = await List.findOne({ id: todo.listID });
-  //     todo.list = list._id;
 
-  //     await todo.save();
-  //     // console.log("se guardaron los id de las listas a los todos");
-  //   }
-  // } catch (error) {
-  //   console.error(`no se pudo ligar las listas a los todos ${error}`);
-  // }
+  try {
+    for (const todo of toDos) {
+      const list = await List.findOne({ id: todo.listID });
+      todo.list = list._id;
+
+      await todo.save();
+      // console.log("se guardaron los id de las listas a los todos");
+    }
+  } catch (error) {
+    console.error(`no se pudo ligar las listas a los todos ${error}`);
+  }
 };
 
 const deleteKeys = async () => {

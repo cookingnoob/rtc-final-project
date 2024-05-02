@@ -1,4 +1,5 @@
 import List from "../models/lists.js"
+import User from "../models/user.js"
 
 const getGlobalLists = async (req, res, next) => {
   try {
@@ -12,4 +13,16 @@ const getGlobalLists = async (req, res, next) => {
   }
 }
 
-export { getGlobalLists }
+const getUserLists = async (req, res, next) => {
+  try {
+    const { id } = req.user
+    const userId = req.user.id
+    const user = await User.findOne({ _id: id }).populate('lists')
+
+    res.status(200).json({ data: user.lists })
+  } catch (error) {
+    next(error)
+  }
+}
+
+export { getGlobalLists, getUserLists }

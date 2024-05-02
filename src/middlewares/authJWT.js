@@ -1,7 +1,7 @@
 import jwt from 'jsonwebtoken'
-import { verifyToken } from '../config/jwt'
+import { verifyToken } from '../config/jwt.js'
 
-const validateToken = async (req, res, next){
+const validateToken = async (req, res, next) => {
   try {
     const { authorization } = req.headers
     if (!authorization) {
