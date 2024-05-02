@@ -3,6 +3,7 @@ import bcrypt from "bcrypt";
 import User from "../models/user.js";
 import jwt from 'jsonwebtoken'
 import List from "../models/lists.js";
+import { signToken } from "../config/jwt.js";
 
 const registerUser = async (req, res, next) => {
 
@@ -51,7 +52,7 @@ const registerUser = async (req, res, next) => {
     await generalList.save()
 
     const payload = { id: newUser._id }
-    const token = jwt.sign(payload, process.env.JWT_TOKEN, { expiresIn: '1h' })
+    const token = signToken(payload)
 
     res.status(201).json({ data: `se creó una cuenta con el correo ${email}`, token })
   } catch (error) {
@@ -76,7 +77,7 @@ const loginUser = async (req, res, next) => {
 
     if (userExists && isPasswordRight) {
       const payload = { id: userExists._id }
-      const token = jwt.sign(payload, process.env.JWT_TOKEN, { expiresIn: '1h' })
+      const token = signToken(payload)
       res.status(201).json({ data: `iniciaste sesión ${token}`, token })
     }
 
