@@ -6,9 +6,14 @@ const listSchema = new mongoose.Schema({
   },
   color: String,
   user: {
-    type: String,
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "User",
   },
   sharedUsers: [{ type: String }],
+  todos: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Todo",
+  }],
   global: Boolean,
   ratings: Number,
 });

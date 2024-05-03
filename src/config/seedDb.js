@@ -76,12 +76,29 @@ const linkToDosToLists = async () => {
       todo.list = list._id;
 
       await todo.save();
-      // console.log("se guardaron los id de las listas a los todos");
+      console.log("se guardaron los id de las listas a los todos");
     }
   } catch (error) {
     console.error(`no se pudo ligar las listas a los todos ${error}`);
   }
 };
+
+const linkListtoTodo = async () => {
+  const lists = await List.find({ global: true })
+  try {
+    for (const l of lists) {
+      const listToDos = []
+      const toDos = await ToDo.find({ list: l._id })
+      toDos.map(todo => listToDos.push(todo._id))
+      l.todos = listToDos
+      await l.save()
+      console.log('se ligaron los to-dos a las seed de listas')
+    }
+
+  } catch (error) {
+    console.error(`no se pudieron ligar los to do a las listas ${error}`)
+  }
+}
 
 const deleteKeys = async () => {
   try {
@@ -96,5 +113,6 @@ export {
   linkListsToUser,
   linkUserIdToLists,
   linkToDosToLists,
+  linkListtoTodo,
   deleteKeys,
 };

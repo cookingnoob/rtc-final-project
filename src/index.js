@@ -15,6 +15,7 @@ import {
   linkUserIdToLists,
   linkToDosToLists,
   deleteKeys,
+  linkListtoTodo,
 } from "./config/seedDb.js";
 import { listsRouter } from "./routes/lists.js";
 import { todoRouter } from "./routes/to-dos.js";
@@ -43,6 +44,7 @@ connectToDB();
 // linkListsToUser();
 // linkUserIdToLists();
 // linkToDosToLists();
+// linkListtoTodo()
 //deleteKeys();
 
 //ROUTES
@@ -50,6 +52,12 @@ connectToDB();
 app.use("/user", userRouter);
 app.use('/lists', listsRouter)
 app.use('todos', todoRouter)
+
+app.use((req, res, next) => {
+  const error = new Error("No encontramos lo que buscabas")
+  error.status = 404
+  next(error)
+})
 
 app.use((err, req, res, next) => {
   console.error(err)
