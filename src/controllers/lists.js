@@ -1,3 +1,4 @@
+import mongoose from "mongoose"
 import List from "../models/lists.js"
 import User from "../models/user.js"
 
@@ -46,17 +47,23 @@ const patchEditList = async (req, res, next) => {
   try {
     const { id } = req.params
     const { listName, color, global } = req.body
-    const listToUpdate = await List.findOneAndUpdate({ _id: id }, {
-      listName: listName,
-      color: color,
-      global: global
-    })
-    if (!listToUpdate) {
+    if (!mongoose.Types.ObjectId.isValid(id)) {
       const error = new Error('no se encontró la lista')
       error.status = 400
       next(error)
     }
-    res.status(200).json({ data: 'se actulizo la lista', listToUpdate })
+    const doesListExist = await List.findOne({ _id: id })
+    if (!doesListExist) {
+      const error = new Error('no se encontró la lista')
+      error.status = 400
+      next(error)
+    }
+    await List.findOneAndUpdate({ _id: id }, {
+      listName: listName,
+      color: color,
+      global: global
+    })
+    res.status(200).json({ data: 'se actulizo la lista' })
   } catch (error) {
     next(error)
   }
