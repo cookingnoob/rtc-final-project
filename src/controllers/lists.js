@@ -23,4 +23,23 @@ const getUserLists = async (req, res, next) => {
   }
 }
 
-export { getGlobalLists, getUserLists }
+const postNewList = async (req, res, next) => {
+  try {
+    const { id } = req.user
+    const { listName, color, global } = req.body
+    const newList = new List({
+      listName: listName,
+      color: color,
+      global: global
+    })
+    await newList.save()
+    const currentUser = await User.findById(id);
+    currentUser.lists.push(newList._id)
+    await currentUser.save()
+    res.status(201).json({ data: 'se creo una nueva lista', newList })
+  } catch (error) {
+    next(error)
+  }
+}
+
+export { getGlobalLists, getUserLists, postNewList }

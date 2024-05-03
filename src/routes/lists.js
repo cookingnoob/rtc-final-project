@@ -1,5 +1,5 @@
 import express from 'express'
-import { getGlobalLists, getUserLists } from '../controllers/lists.js'
+import { getGlobalLists, getUserLists, postNewList } from '../controllers/lists.js'
 import { validateToken } from '../middlewares/authJWT.js'
 
 const router = express.Router()
@@ -10,7 +10,7 @@ router.get('/share', getGlobalLists)
 //listas del usuario
 router.get('/user', validateToken, getUserLists)
 //nueva lista
-router.post('/new')
+router.post('/new', validateToken, postNewList)
 // editar lista
 //eliminar lista
 
