@@ -42,4 +42,24 @@ const postNewList = async (req, res, next) => {
   }
 }
 
-export { getGlobalLists, getUserLists, postNewList }
+const patchEditList = async (req, res, next) => {
+  try {
+    const { id } = req.params
+    const { listName, color, global } = req.body
+    const listToUpdate = await List.findOneAndUpdate({ _id: id }, {
+      listName: listName,
+      color: color,
+      global: global
+    })
+    if (!listToUpdate) {
+      const error = new Error('no se encontró la lista')
+      error.status = 400
+      next(error)
+    }
+    res.status(200).json({ data: 'se actulizo la lista', listToUpdate })
+  } catch (error) {
+    next(error)
+  }
+}
+
+export { getGlobalLists, getUserLists, postNewList, patchEditList }

@@ -1,5 +1,5 @@
 import express from 'express'
-import { getGlobalLists, getUserLists, postNewList } from '../controllers/lists.js'
+import { getGlobalLists, getUserLists, patchEditList, postNewList } from '../controllers/lists.js'
 import { validateToken } from '../middlewares/authJWT.js'
 
 const router = express.Router()
@@ -12,6 +12,7 @@ router.get('/user', validateToken, getUserLists)
 //nueva lista
 router.post('/new', validateToken, postNewList)
 // editar lista
+router.patch('/:id/edit', validateToken, patchEditList)
 //eliminar lista
 
 export { router as listsRouter } 
