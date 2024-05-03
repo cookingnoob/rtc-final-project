@@ -69,4 +69,25 @@ const patchEditList = async (req, res, next) => {
   }
 }
 
-export { getGlobalLists, getUserLists, postNewList, patchEditList }
+const deleteList = async (req, res, next) => {
+  try {
+    const { id } = req.params
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      const error = new Error('no se encontró la lista')
+      error.status = 400
+      next(error)
+    }
+    const doesListExist = await List.findOne({ _id: id })
+    if (!doesListExist) {
+      const error = new Error('no se encontró la lista')
+      error.status = 400
+      next(error)
+    }
+    await List.findOneAndDelete({ _id: id })
+    res.status(200).json({ data: 'se eliminó la lista' })
+  } catch (error) {
+    next(error)
+  }
+}
+
+export { getGlobalLists, getUserLists, postNewList, patchEditList, deleteList }
