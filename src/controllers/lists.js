@@ -4,7 +4,7 @@ import User from "../models/user.js"
 
 const getGlobalLists = async (req, res, next) => {
   try {
-    const globalLists = await List.find({ global: true })
+    const globalLists = await List.find({ global: true }).populate({ path: 'todos', select: 'description' })
     if (!globalLists) {
       res.status(404).json({ error: 'no se encontraron las listas' })
     }
@@ -19,6 +19,21 @@ const getUserLists = async (req, res, next) => {
     const { id } = req.user
     const user = await User.findOne({ _id: id }).populate('lists')
     res.status(200).json({ data: user.lists })
+  } catch (error) {
+    next(error)
+  }
+}
+
+const getListById = async (req, res, next) => {
+  try {
+    const { id } = req.params
+    const list = await List.findById(id)
+    if (!list) {
+      const error = new Error('no esta esa lista')
+      error.status = 400
+      next(error)
+    }
+    res.status(200).json({ data: list })
   } catch (error) {
     next(error)
   }
@@ -90,4 +105,4 @@ const deleteList = async (req, res, next) => {
   }
 }
 
-export { getGlobalLists, getUserLists, postNewList, patchEditList, deleteList }
+export { getGlobalLists, getUserLists, getListById, postNewList, patchEditList, deleteList }

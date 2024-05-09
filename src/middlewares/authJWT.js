@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken'
-import { verifyToken } from '../config/jwt.js'
+import { verifyToken } from './jwt.js'
 
 const validateToken = async (req, res, next) => {
   try {

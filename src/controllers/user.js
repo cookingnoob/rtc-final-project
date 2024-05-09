@@ -3,7 +3,7 @@ import bcrypt from "bcrypt";
 import User from "../models/user.js";
 import jwt from 'jsonwebtoken'
 import List from "../models/lists.js";
-import { signToken } from "../config/jwt.js";
+import { signToken } from "../middlewares/jwt.js";
 
 const registerUser = async (req, res, next) => {
 

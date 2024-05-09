@@ -8,4 +8,8 @@ router.post("/register", checkEmailPassword, registerUser)
 
 router.post('/login', loginUser)
 
+//editar informacion de usuario
+
+//eliminar usuario
+
 export { router as userRouter }

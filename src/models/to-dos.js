@@ -1,7 +1,10 @@
 import mongoose from "mongoose";
 
 const toDoSchema = new mongoose.Schema({
-  list: String,
+  list: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Lists",
+  },
   description: String,
   done: Boolean,
   doneByXDate: Date,
@@ -9,6 +12,6 @@ const toDoSchema = new mongoose.Schema({
   notes: String,
 });
 
-const ToDo = mongoose.model("Todos", toDoSchema);
+const ToDo = mongoose.model("Todo", toDoSchema);
 
 export default ToDo;
