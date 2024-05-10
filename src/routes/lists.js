@@ -16,8 +16,8 @@ router.post('/new', validateToken, postNewList)
 //nuevo todo
 router.post('/new-todo/:id', validateToken, postNewTodo)
 // editar lista
-router.patch('/:id/edit', validateToken, patchEditList)
+router.patch('/edit/:id', validateToken, patchEditList)
 //eliminar lista
-router.delete('/:id/delete', validateToken, deleteList)
+router.delete('/delete/:id', validateToken, deleteList)
 
 export { router as listsRouter } 

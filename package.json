@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "seed": "node ./src/config/seedDb.js",
     "start": "nodemon src/index.js"
   },
   "keywords": [],

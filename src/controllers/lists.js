@@ -90,10 +90,13 @@ const patchEditList = async (req, res, next) => {
 const postNewTodo = async (req, res, next) => {
   try {
     const { id } = req.params
-    const { description } = req.body
+    const { description, howMuchTimeItTakes, doneByXDate, notes } = req.body
     const newTodo = new ToDo({
       description: description,
       list: id,
+      notes: notes,
+      doneByXDate: doneByXDate,
+      howMuchTimeItTakes: howMuchTimeItTakes,
       done: false
     })
     await newTodo.save()

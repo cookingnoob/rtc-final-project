@@ -8,15 +8,6 @@ import morgan from "morgan";
 import bodyParser from "body-parser";
 import { userRouter } from "./routes/user.js";
 import connectToDB from "./config/connectDB.js";
-import { readCsvFiles } from "./config/csvToJson.js";
-import {
-  seedDB,
-  linkListsToUser,
-  linkUserIdToLists,
-  linkToDosToLists,
-  deleteKeys,
-  linkListtoTodo,
-} from "./config/seedDb.js";
 import { listsRouter } from "./routes/lists.js";
 import { todoRouter } from "./routes/to-dos.js";
 
@@ -34,21 +25,9 @@ app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 
-//CSV A JSON
-//Acepta un parametro obligatorio que es el nombre del archivo que se va a leer
-//readCsvFiles("users.csv");
-
 connectToDB();
-//llenar la bbdd y enlazar las ids de las semillas
-// seedDB(true);
-// linkListsToUser();
-// linkUserIdToLists();
-// linkToDosToLists();
-// linkListtoTodo()
-//deleteKeys();
 
 //ROUTES
-
 app.use("/user", userRouter);
 app.use('/lists', listsRouter)
 app.use('/todos', todoRouter)
