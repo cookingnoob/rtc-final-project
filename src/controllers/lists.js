@@ -1,6 +1,7 @@
 import mongoose from "mongoose"
 import List from "../models/lists.js"
 import User from "../models/user.js"
+import ToDo from "../models/to-dos.js"
 
 const getGlobalLists = async (req, res, next) => {
   try {
@@ -33,7 +34,9 @@ const getListById = async (req, res, next) => {
       error.status = 400
       next(error)
     }
-    res.status(200).json({ data: list })
+    const todos = await ToDo.find({ list: id })
+    console.log(todos)
+    res.status(200).json({ list, todos })
   } catch (error) {
     next(error)
   }
@@ -84,6 +87,22 @@ const patchEditList = async (req, res, next) => {
   }
 }
 
+const postNewTodo = async (req, res, next) => {
+  try {
+    const { id } = req.params
+    const { description } = req.body
+    const newTodo = new ToDo({
+      description: description,
+      list: id,
+      done: false
+    })
+    await newTodo.save()
+    res.status(201).json({ data: `se creo el archivo ${newTodo}` })
+  } catch (error) {
+    next(error)
+  }
+}
+
 const deleteList = async (req, res, next) => {
   try {
     const { id } = req.params
@@ -105,4 +124,4 @@ const deleteList = async (req, res, next) => {
   }
 }
 
-export { getGlobalLists, getUserLists, getListById, postNewList, patchEditList, deleteList }
+export { getGlobalLists, getUserLists, getListById, postNewList, postNewTodo, patchEditList, deleteList }
