@@ -10,6 +10,8 @@ const toDoSchema = new mongoose.Schema({
   doneByXDate: Date,
   howMuchTimeItTakes: String,
   notes: String,
+  order: Number,
+  priority: Boolean,
 });
 
 const ToDo = mongoose.model("Todo", toDoSchema);

@@ -6,6 +6,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "10 minutes",
     notes: "Prepare starter for next day baking",
+    order: 1,
+    priority: false,
   },
   {
     list: "Baking Bread",
@@ -14,6 +16,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "15 minutes",
     notes: "Follow specific bread recipe",
+    order: 2,
+    priority: false,
   },
   {
     list: "Baking Bread",
@@ -22,6 +26,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
     notes: "Allow dough to rest and rise initially",
+    order: 3,
+    priority: false,
   },
   {
     list: "Baking Bread",
@@ -30,6 +36,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "2 hours",
     notes: "Every 30 mins do a stretch and fold",
+    order: 4,
+    priority: false,
   },
   {
     list: "Baking Bread",
@@ -38,6 +46,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "12 hours",
     notes: "Overnight fermentation in the fridge",
+    order: 5,
+    priority: false,
   },
   {
     list: "Baking Bread",
@@ -46,6 +56,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "1 hour",
     notes: "Ensure oven is at optimal temperature",
+    order: 6,
+    priority: false,
   },
   {
     list: "Baking Bread",
@@ -54,6 +66,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "40 minutes",
     notes: "Score bread for aesthetic and practical baking reasons",
+    order: 7,
+    priority: false,
   },
   {
     list: "Baking Bread",
@@ -62,6 +76,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "20 minutes",
     notes: "Final bake to achieve crust color and texture",
+    order: 8,
+    priority: false,
   },
   {
     list: "Baking Bread",
@@ -70,6 +86,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "1 hour",
     notes: "Cool on a wire rack to maintain crust texture",
+    order: 9,
+    priority: false,
   },
   {
     list: "Plan Trip to NY",
@@ -78,6 +96,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "15 minutes",
     notes: "Purchase online to avoid queues",
+    order: 1,
+    priority: false,
   },
   {
     list: "Plan Trip to NY",
@@ -86,6 +106,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "15 minutes",
     notes: "Check for weather conditions before booking",
+    order: 2,
+    priority: false,
   },
   {
     list: "Plan Trip to NY",
@@ -94,6 +116,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "20 minutes",
     notes: "Book well in advance due to popularity",
+    order: 3,
+    priority: false,
   },
   {
     list: "Plan Trip to NY",
@@ -102,6 +126,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "20 minutes",
     notes: "Select optimal game and seating",
+    order: 4,
+    priority: false,
   },
   {
     list: "Plan Trip to NY",
@@ -110,6 +136,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
     notes: "Choose based on reviews and availability",
+    order: 5,
+    priority: false,
   },
   {
     list: "Plan Trip to NY",
@@ -118,6 +146,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "25 minutes",
     notes: "Compare rates and locations in Manhattan",
+    order: 6,
+    priority: false,
   },
   {
     list: "Plan Trip to NY",
@@ -126,6 +156,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
     notes: "Book flights aligning with travel dates",
+    order: 7,
+    priority: false,
   },
   {
     list: "Plan Trip to NY",
@@ -134,6 +166,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "10 minutes",
     notes: "Check weather forecast week before packing",
+    order: 8,
+    priority: false,
   },
   {
     list: "Plan Trip to NY",
@@ -142,6 +176,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
     notes: "Look for variety and top-rated spots",
+    order: 9,
+    priority: false,
   },
   {
     list: "Plan Trip to NY",
@@ -150,6 +186,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
     notes: "Research and note down top-rated sushi bars",
+    order: 10,
+    priority: false,
   },
   {
     list: "Picnic in a Park",
@@ -158,6 +196,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "15 minutes",
     notes: "Choose a large enough basket for all food items",
+    order: 1,
+    priority: false,
   },
   {
     list: "Picnic in a Park",
@@ -166,6 +206,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "5 minutes",
     notes: "SPF 50+ recommended",
+    order: 2,
+    priority: false,
   },
   {
     list: "Picnic in a Park",
@@ -174,6 +216,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
     notes: "Select a variety to cater to all tastes",
+    order: 3,
+    priority: false,
   },
   {
     list: "Picnic in a Park",
@@ -182,6 +226,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "10 minutes",
     notes: "Ensure both bicycles are in good condition",
+    order: 4,
+    priority: false,
   },
   {
     list: "Picnic in a Park",
@@ -190,6 +236,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "15 minutes",
     notes: "Perform basic maintenance if necessary",
+    order: 5,
+    priority: false,
   },
   {
     list: "Picnic in a Park",
@@ -198,6 +246,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "5 minutes",
     notes: "Plan for weather-appropriate clothing and items",
+    order: 6,
+    priority: false,
   },
   {
     list: "Picnic in a Park",
@@ -206,6 +256,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "10 minutes",
     notes: "Pack all essentials for a day out",
+    order: 7,
+    priority: false,
   },
   {
     list: "Mari Kondo My Home",
@@ -214,6 +266,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "1 hour",
     notes: "Pile clothes on the bed to see everything",
+    order: 1,
+    priority: false,
   },
   {
     list: "Mari Kondo My Home",
@@ -222,6 +276,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "2 hours",
     notes: "Decide which clothes to keep",
+    order: 2,
+    priority: false,
   },
   {
     list: "Mari Kondo My Home",
@@ -230,6 +286,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "1 hour",
     notes: "Organize clothes back into closet neatly",
+    order: 3,
+    priority: false,
   },
   {
     list: "Mari Kondo My Home",
@@ -238,6 +296,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
     notes: "Gather all books from around the house",
+    order: 4,
+    priority: false,
   },
   {
     list: "Mari Kondo My Home",
@@ -246,6 +306,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "1 hour",
     notes: "Decide which books to keep",
+    order: 5,
+    priority: false,
   },
   {
     list: "Mari Kondo My Home",
@@ -254,6 +316,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
     notes: "Reorganize books on shelves",
+    order: 6,
+    priority: false,
   },
   {
     list: "Mari Kondo My Home",
@@ -262,6 +326,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "1 hour",
     notes: "Sort through miscellaneous items",
+    order: 7,
+    priority: false,
   },
   {
     list: "Mari Kondo My Home",
@@ -270,6 +336,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "2 hours",
     notes: "Determine what to keep or discard",
+    order: 8,
+    priority: false,
   },
   {
     list: "Mari Kondo My Home",
@@ -278,6 +346,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "1 hour",
     notes: "Organize items neatly in their places",
+    order: 8,
+    priority: false,
   },
   {
     list: "Mari Kondo My Home",
@@ -286,6 +356,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
     notes: "Handle with care, lay out items to view",
+    order: 9,
+    priority: false,
   },
   {
     list: "Mari Kondo My Home",
@@ -294,6 +366,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "1 hour",
     notes: "Decide what is truly valuable and what can be let go",
+    order: 10,
+    priority: false,
   },
   {
     list: "Mari Kondo My Home",
@@ -302,6 +376,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
     notes: "Store sentimental items in a respectful place",
+    order: 11,
+    priority: false,
   },
   {
     list: "Sleep Routine Backed by Science",
@@ -310,6 +386,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "2 hours",
     notes: "Prepares body for sleep by reducing light exposure",
+    order: 1,
+    priority: false,
   },
   {
     list: "Sleep Routine Backed by Science",
@@ -318,6 +396,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
     notes: "Helps decrease stress and relax the body",
+    order: 2,
+    priority: false,
   },
   {
     list: "Sleep Routine Backed by Science",
@@ -326,6 +406,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "10 minutes",
     notes: "Chamomile is known for its calming effects",
+    order: 3,
+    priority: false,
   },
   {
     list: "Sleep Routine Backed by Science",
@@ -334,6 +416,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "5 minutes",
     notes: "Lavender helps in reducing sleep anxiety",
+    order: 4,
+    priority: false,
   },
   {
     list: "Sleep Routine Backed by Science",
@@ -342,6 +426,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "5 minutes",
     notes: "Comfortable clothing aids better sleep",
+    order: 5,
+    priority: false,
   },
   {
     list: "Sleep Routine Backed by Science",
@@ -350,6 +436,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "2 minutes",
     notes: "Staying hydrated is important after a night's sleep",
+    order: 6,
+    priority: false,
   },
   {
     list: "Sleep Routine Backed by Science",
@@ -359,6 +447,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
     notes: "Meditation or ASMR can significantly improve sleep quality",
+    order: 7,
+    priority: false,
   },
   {
     list: "Job Interview Preparation",
@@ -367,6 +457,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "1 hour",
     notes: "Keep your professional information up to date",
+    order: 1,
+    priority: false,
   },
   {
     list: "Job Interview Preparation",
@@ -375,6 +467,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
     notes: "Important for maintaining a professional online presence",
+    order: 2,
+    priority: false,
   },
   {
     list: "Job Interview Preparation",
@@ -383,6 +477,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "2 hours",
     notes: "Understand potential employers and the job market",
+    order: 3,
+    priority: false,
   },
   {
     list: "Job Interview Preparation",
@@ -391,6 +487,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "3 hours",
     notes: "The more applications you submit, the better your chances",
+    order: 4,
+    priority: false,
   },
   {
     list: "Job Interview Preparation",
@@ -401,6 +499,8 @@ export const todosSeeds = [
     howMuchTimeItTakes: "1 hour",
     notes:
       "Mock interviews can greatly improve your real interview performance",
+    order: 5,
+    priority: false,
   },
   {
     list: "Job Interview Preparation",
@@ -409,6 +509,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
     notes: "Proper attire is crucial for a positive first impression",
+    order: 6,
+    priority: false,
   },
   {
     list: "Job Interview Preparation",
@@ -418,6 +520,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "Ongoing",
     notes: "Job hunting is a marathon, not a sprint",
+    order: 7,
+    priority: false,
   },
   {
     list: "Lord of the Rings Marathon Party",
@@ -426,6 +530,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "20 minutes",
     notes: "Gather your fellow LOTR enthusiasts",
+    order: 1,
+    priority: false,
   },
   {
     list: "Lord of the Rings Marathon Party",
@@ -434,6 +540,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
     notes: "Ensure you have all the films ready for the marathon",
+    order: 2,
+    priority: false,
   },
   {
     list: "Lord of the Rings Marathon Party",
@@ -442,6 +550,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "15 minutes",
     notes: "Essential for the 'PO-TA-TOES' dish",
+    order: 3,
+    priority: false,
   },
   {
     list: "Lord of the Rings Marathon Party",
@@ -450,6 +560,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
     notes: "Start the cooking process for the feast",
+    order: 4,
+    priority: false,
   },
   {
     list: "Lord of the Rings Marathon Party",
@@ -458,6 +570,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "20 minutes",
     notes: "Prepare mashed potatoes as part of the themed meal",
+    order: 5,
+    priority: false,
   },
   {
     list: "Lord of the Rings Marathon Party",
@@ -466,6 +580,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
     notes: "Complete the iconic dish from the series",
+    order: 6,
+    priority: false,
   },
   {
     list: "Lord of the Rings Marathon Party",
@@ -474,6 +590,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
     notes: "Stock up on drinks for the marathon",
+    order: 7,
+    priority: false,
   },
   {
     list: "Lord of the Rings Marathon Party",
@@ -482,6 +600,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "15 minutes",
     notes: "Comfort is key for a movie marathon",
+    order: 8,
+    priority: false,
   },
   {
     list: "Lord of the Rings Marathon Party",
@@ -490,6 +610,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "20 minutes",
     notes: "Make it a potluck with themed snacks from others",
+    order: 9,
+    priority: false,
   },
   {
     list: "Movies to Watch",
@@ -498,6 +620,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "2 hours",
     notes: "Classic psychological horror",
+    order: 1,
+    priority: false,
   },
   {
     list: "Movies to Watch",
@@ -506,6 +630,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "2 hours",
     notes: "Acclaimed animated fantasy film",
+    order: 2,
+    priority: false,
   },
   {
     list: "Movies to Watch",
@@ -514,6 +640,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "2 hours",
     notes: "Dramatic comedy that explores fame and relevance",
+    order: 3,
+    priority: false,
   },
   {
     list: "Movies to Watch",
@@ -522,6 +650,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "3 hours",
     notes: "Epic mafia saga",
+    order: 4,
+    priority: false,
   },
   {
     list: "Movies to Watch",
@@ -530,6 +660,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "2 hours",
     notes: "Action-packed post-apocalyptic film",
+    order: 5,
+    priority: false,
   },
   {
     list: "Movies to Watch",
@@ -538,6 +670,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "1.5 hours",
     notes: "Comedy-drama with visual and narrative style",
+    order: 6,
+    priority: false,
   },
   {
     list: "Movies to Watch",
@@ -546,6 +680,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "1.5 hours",
     notes: "Spanish horror film with found footage style",
+    order: 7,
+    priority: false,
   },
   {
     list: "Movies to Watch",
@@ -554,6 +690,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "2 hours",
     notes: "Groundbreaking sci-fi horror",
+    order: 8,
+    priority: false,
   },
   {
     list: "Movies to Watch",
@@ -562,6 +700,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "2.5 hours",
     notes: "Sequel to the sci-fi classic Blade Runner",
+    order: 9,
+    priority: false,
   },
   {
     list: "Movies to Watch",
@@ -570,6 +710,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "2 hours",
     notes: "Dark fantasy with historical context",
+    order: 10,
+    priority: false,
   },
   {
     list: "Grocery List for a BBQ",
@@ -578,6 +720,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "10 minutes",
     notes: "Essential for grilling",
+    order: 1,
+    priority: false,
   },
   {
     list: "Grocery List for a BBQ",
@@ -586,6 +730,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "10 minutes",
     notes: "Adds smoky flavor to meats",
+    order: 2,
+    priority: false,
   },
   {
     list: "Grocery List for a BBQ",
@@ -594,6 +740,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "5 minutes",
     notes: "Basic seasoning",
+    order: 3,
+    priority: false,
   },
   {
     list: "Grocery List for a BBQ",
@@ -602,6 +750,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "5 minutes",
     notes: "For seasoning meats",
+    order: 4,
+    priority: false,
   },
   {
     list: "Grocery List for a BBQ",
@@ -610,6 +760,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "5 minutes",
     notes: "Gives color and flavor to meats",
+    order: 5,
+    priority: false,
   },
   {
     list: "Grocery List for a BBQ",
@@ -618,6 +770,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "5 minutes",
     notes: "Adds heat to dishes",
+    order: 6,
+    priority: false,
   },
   {
     list: "Grocery List for a BBQ",
@@ -626,6 +780,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "15 minutes",
     notes: "For pulled pork",
+    order: 7,
+    priority: false,
   },
   {
     list: "Grocery List for a BBQ",
@@ -634,6 +790,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "15 minutes",
     notes: "Main dish for BBQ",
+    order: 8,
+    priority: false,
   },
   {
     list: "Grocery List for a BBQ",
@@ -642,6 +800,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "5 minutes",
     notes: "Needed to start the grill",
+    order: 9,
+    priority: false,
   },
   {
     list: "Grocery List for a BBQ",
@@ -650,6 +810,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "5 minutes",
     notes: "Useful for cooking and storage",
+    order: 10,
+    priority: false,
   },
   {
     list: "Grocery List for a BBQ",
@@ -658,6 +820,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "10 minutes",
     notes: "Beverages for guests",
+    order: 11,
+    priority: false,
   },
   {
     list: "Grocery List for a BBQ",
@@ -666,6 +830,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "10 minutes",
     notes: "Goes well with BBQ",
+    order: 12,
+    priority: false,
   },
   {
     list: "Grocery List for a BBQ",
@@ -674,6 +840,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "5 minutes",
     notes: "Snacks for the BBQ",
+    order: 13,
+    priority: false,
   },
   {
     list: "Grocery List for a BBQ",
@@ -682,6 +850,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "5 minutes",
     notes: "Condiment for sandwiches",
+    order: 14,
+    priority: false,
   },
   {
     list: "React Hooks Study Session",
@@ -690,6 +860,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "1 hour",
     notes: "Learn how useState manages state in functional components",
+    order: 1,
+    priority: false,
   },
   {
     list: "React Hooks Study Session",
@@ -698,6 +870,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "1 hour",
     notes: "Understand useEffect for side effects in functional components",
+    order: 2,
+    priority: false,
   },
   {
     list: "React Hooks Study Session",
@@ -706,6 +880,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "1 hour",
     notes: "Explore useRef for referencing DOM elements",
+    order: 3,
+    priority: false,
   },
   {
     list: "React Hooks Study Session",
@@ -714,6 +890,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "1 hour",
     notes: "Use React Context API with useContext for global state",
+    order: 4,
+    priority: false,
   },
   {
     list: "React Hooks Study Session",
@@ -722,6 +900,8 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "1 hour",
     notes: "Learn how useReducer works for state management",
+    order: 5,
+    priority: false,
   },
   {
     list: "React Hooks Study Session",
@@ -730,5 +910,7 @@ export const todosSeeds = [
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "2 hours",
     notes: "Develop custom hooks for reusable logic",
+    order: 6,
+    priority: false,
   },
 ];
