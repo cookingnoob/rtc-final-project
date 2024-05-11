@@ -1,6 +1,6 @@
 export const todosSeeds = [
   {
-    list: "Baking Bread",
+    listName: "Baking Bread",
     description: "Feed sourdough night before",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -10,7 +10,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Baking Bread",
+    listName: "Baking Bread",
     description: "Mix ingredients",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -20,7 +20,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Baking Bread",
+    listName: "Baking Bread",
     description: "Let it rest 30 minutes",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -30,7 +30,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Baking Bread",
+    listName: "Baking Bread",
     description: "Stretch and fold into a ball, repeat 4 times",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -40,7 +40,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Baking Bread",
+    listName: "Baking Bread",
     description: "Shape into a ball and let it rest 12 hours in fridge",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -50,7 +50,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Baking Bread",
+    listName: "Baking Bread",
     description: "Preheat oven and cast iron for 1 hr at 450f",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -60,7 +60,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Baking Bread",
+    listName: "Baking Bread",
     description: "Put the bread in cast iron and score",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -70,7 +70,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Baking Bread",
+    listName: "Baking Bread",
     description: "Bake extra 10-20 minutes until golden brown",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -80,7 +80,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Baking Bread",
+    listName: "Baking Bread",
     description: "Let it cool for 1 hour",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -90,7 +90,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Plan Trip to NY",
+    listName: "Plan Trip to NY",
     description: "Buy tickets for Met Museum",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -100,7 +100,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Plan Trip to NY",
+    listName: "Plan Trip to NY",
     description: "Buy tickets for WTC Sky View",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -110,7 +110,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Plan Trip to NY",
+    listName: "Plan Trip to NY",
     description: "Make reservations for Peter Luger",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -120,7 +120,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Plan Trip to NY",
+    listName: "Plan Trip to NY",
     description: "Buy tickets for NY Yankees",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -130,7 +130,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Plan Trip to NY",
+    listName: "Plan Trip to NY",
     description: "Decide what Broadway show to watch and buy tickets",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -140,7 +140,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Plan Trip to NY",
+    listName: "Plan Trip to NY",
     description: "Make hotel reservations",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -150,7 +150,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Plan Trip to NY",
+    listName: "Plan Trip to NY",
     description: "Make flight reservations",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -160,7 +160,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Plan Trip to NY",
+    listName: "Plan Trip to NY",
     description: "See climate to choose proper clothing",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -170,7 +170,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Plan Trip to NY",
+    listName: "Plan Trip to NY",
     description: "Highlight good restaurants around Central Park",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -180,8 +180,8 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Plan Trip to NY",
-    description: "List of best sushi bars in town",
+    listName: "Plan Trip to NY",
+    description: "listName of best sushi bars in town",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
     howMuchTimeItTakes: "30 minutes",
@@ -190,7 +190,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Picnic in a Park",
+    listName: "Picnic in a Park",
     description: "Buy picnic basket",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -200,7 +200,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Picnic in a Park",
+    listName: "Picnic in a Park",
     description: "Buy sunscreen",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -210,7 +210,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Picnic in a Park",
+    listName: "Picnic in a Park",
     description: "Buy cured meats, cheeses, artisan bread and wine and sodas",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -220,7 +220,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Picnic in a Park",
+    listName: "Picnic in a Park",
     description: "Check if partner has bicycle ready",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -230,7 +230,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Picnic in a Park",
+    listName: "Picnic in a Park",
     description: "Check my bicycle",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -240,7 +240,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Picnic in a Park",
+    listName: "Picnic in a Park",
     description: "Check climate",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -250,7 +250,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Picnic in a Park",
+    listName: "Picnic in a Park",
     description: "Prepare backpack with sunglasses, cards, keys",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -260,7 +260,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Mari Kondo My Home",
+    listName: "Mari Kondo My Home",
     description: "Take all of my clothes out",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -270,7 +270,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Mari Kondo My Home",
+    listName: "Mari Kondo My Home",
     description: "Process clothes to see if they spark joy or they go",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -280,7 +280,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Mari Kondo My Home",
+    listName: "Mari Kondo My Home",
     description: "Put clothes where they belong",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -290,7 +290,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Mari Kondo My Home",
+    listName: "Mari Kondo My Home",
     description: "Take all books out",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -300,7 +300,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Mari Kondo My Home",
+    listName: "Mari Kondo My Home",
     description: "Process books",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -310,7 +310,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Mari Kondo My Home",
+    listName: "Mari Kondo My Home",
     description: "Put books where they belong",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -320,7 +320,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Mari Kondo My Home",
+    listName: "Mari Kondo My Home",
     description: "Take all miscellaneous things out",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -330,7 +330,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Mari Kondo My Home",
+    listName: "Mari Kondo My Home",
     description: "Process them",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -340,7 +340,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Mari Kondo My Home",
+    listName: "Mari Kondo My Home",
     description: "Put the miscellaneous items where they belong",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -350,7 +350,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Mari Kondo My Home",
+    listName: "Mari Kondo My Home",
     description: "Take all sentimental value items out",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -360,7 +360,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Mari Kondo My Home",
+    listName: "Mari Kondo My Home",
     description: "Process them",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -370,7 +370,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Mari Kondo My Home",
+    listName: "Mari Kondo My Home",
     description: "Take them back where they belong",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -380,7 +380,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Sleep Routine Backed by Science",
+    listName: "Sleep Routine Backed by Science",
     description: "Turn bright lights off 2 hours before bed",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -390,7 +390,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Sleep Routine Backed by Science",
+    listName: "Sleep Routine Backed by Science",
     description: "Relax by doing a calm activity like reading, stretching",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -400,7 +400,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Sleep Routine Backed by Science",
+    listName: "Sleep Routine Backed by Science",
     description: "Prepare chamomile tea",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -410,7 +410,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Sleep Routine Backed by Science",
+    listName: "Sleep Routine Backed by Science",
     description: "Prepare aromatherapy with lavender",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -420,7 +420,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Sleep Routine Backed by Science",
+    listName: "Sleep Routine Backed by Science",
     description: "Get into comfy clothes",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -430,7 +430,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Sleep Routine Backed by Science",
+    listName: "Sleep Routine Backed by Science",
     description: "Get a glass of water for when you wake up",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -440,7 +440,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Sleep Routine Backed by Science",
+    listName: "Sleep Routine Backed by Science",
     description:
       "Meditate or listen to ASMR recordings to help you fall asleep",
     done: true,
@@ -451,7 +451,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Job Interview Preparation",
+    listName: "Job Interview Preparation",
     description: "Update CV",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -461,7 +461,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Job Interview Preparation",
+    listName: "Job Interview Preparation",
     description: "Update LinkedIn profile",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -471,7 +471,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Job Interview Preparation",
+    listName: "Job Interview Preparation",
     description: "Research companies that hire people in your position",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -481,7 +481,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Job Interview Preparation",
+    listName: "Job Interview Preparation",
     description: "Apply to job offers",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -491,7 +491,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Job Interview Preparation",
+    listName: "Job Interview Preparation",
     description:
       "Prepare by asking a friend to interview you and give you feedback",
     done: true,
@@ -503,7 +503,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Job Interview Preparation",
+    listName: "Job Interview Preparation",
     description: "Check dressing options to give the best impression",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -513,7 +513,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Job Interview Preparation",
+    listName: "Job Interview Preparation",
     description:
       "Be patient, it takes time and don't take it personal, rinse and repeat as necessary",
     done: true,
@@ -524,7 +524,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Lord of the Rings Marathon Party",
+    listName: "Lord of the Rings Marathon Party",
     description: "Invite friends",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -534,7 +534,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Lord of the Rings Marathon Party",
+    listName: "Lord of the Rings Marathon Party",
     description: "Buy movies",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -544,7 +544,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Lord of the Rings Marathon Party",
+    listName: "Lord of the Rings Marathon Party",
     description: "Buy tons of potatoes",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -554,7 +554,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Lord of the Rings Marathon Party",
+    listName: "Lord of the Rings Marathon Party",
     description: "Boil 'em",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -564,7 +564,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Lord of the Rings Marathon Party",
+    listName: "Lord of the Rings Marathon Party",
     description: "Mash 'em",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -574,7 +574,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Lord of the Rings Marathon Party",
+    listName: "Lord of the Rings Marathon Party",
     description: "Stick 'em in a stew",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -584,7 +584,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Lord of the Rings Marathon Party",
+    listName: "Lord of the Rings Marathon Party",
     description: "Buy beer and sodas",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -594,7 +594,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Lord of the Rings Marathon Party",
+    listName: "Lord of the Rings Marathon Party",
     description: "Get comfy clothes",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -604,7 +604,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Lord of the Rings Marathon Party",
+    listName: "Lord of the Rings Marathon Party",
     description: "Ask friends to bring other LOTR themed food",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -614,7 +614,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Movies to Watch",
+    listName: "Movies to Watch",
     description: "Watch The Shining",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -624,7 +624,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Movies to Watch",
+    listName: "Movies to Watch",
     description: "Watch Spirited Away",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -634,7 +634,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Movies to Watch",
+    listName: "Movies to Watch",
     description: "Watch Birdman",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -644,7 +644,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Movies to Watch",
+    listName: "Movies to Watch",
     description: "Watch The Godfather",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -654,7 +654,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Movies to Watch",
+    listName: "Movies to Watch",
     description: "Watch Mad Max Fury Road",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -664,7 +664,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Movies to Watch",
+    listName: "Movies to Watch",
     description: "Watch The Grand Budapest Hotel",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -674,7 +674,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Movies to Watch",
+    listName: "Movies to Watch",
     description: "Watch [REC]",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -684,7 +684,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Movies to Watch",
+    listName: "Movies to Watch",
     description: "Watch Alien",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -694,7 +694,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Movies to Watch",
+    listName: "Movies to Watch",
     description: "Watch Blade Runner 2049",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -704,7 +704,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Movies to Watch",
+    listName: "Movies to Watch",
     description: "Watch Pan's Labyrinth",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -714,7 +714,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Grocery List for a BBQ",
+    listName: "Grocery List for a BBQ",
     description: "Buy coals",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -724,7 +724,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Grocery List for a BBQ",
+    listName: "Grocery List for a BBQ",
     description: "Buy apple wood chunks",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -734,7 +734,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Grocery List for a BBQ",
+    listName: "Grocery List for a BBQ",
     description: "Buy salt",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -744,7 +744,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Grocery List for a BBQ",
+    listName: "Grocery List for a BBQ",
     description: "Buy pepper, all kinds",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -754,7 +754,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Grocery List for a BBQ",
+    listName: "Grocery List for a BBQ",
     description: "Buy paprika",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -764,7 +764,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Grocery List for a BBQ",
+    listName: "Grocery List for a BBQ",
     description: "Buy cayenne",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -774,7 +774,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Grocery List for a BBQ",
+    listName: "Grocery List for a BBQ",
     description: "Buy pork butt",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -784,7 +784,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Grocery List for a BBQ",
+    listName: "Grocery List for a BBQ",
     description: "Buy ribs",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -794,7 +794,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Grocery List for a BBQ",
+    listName: "Grocery List for a BBQ",
     description: "Buy lighter",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -804,7 +804,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Grocery List for a BBQ",
+    listName: "Grocery List for a BBQ",
     description: "Buy foil",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -814,7 +814,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Grocery List for a BBQ",
+    listName: "Grocery List for a BBQ",
     description: "Buy beer",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -824,7 +824,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Grocery List for a BBQ",
+    listName: "Grocery List for a BBQ",
     description: "Buy brioche bread",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -834,7 +834,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Grocery List for a BBQ",
+    listName: "Grocery List for a BBQ",
     description: "Buy chips",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -844,7 +844,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "Grocery List for a BBQ",
+    listName: "Grocery List for a BBQ",
     description: "Buy mayo",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -854,7 +854,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "React Hooks Study Session",
+    listName: "React Hooks Study Session",
     description: "Study state hook",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -864,7 +864,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "React Hooks Study Session",
+    listName: "React Hooks Study Session",
     description: "Study effect hook",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -874,7 +874,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "React Hooks Study Session",
+    listName: "React Hooks Study Session",
     description: "Study ref hook",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -884,7 +884,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "React Hooks Study Session",
+    listName: "React Hooks Study Session",
     description: "Study context hook",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -894,7 +894,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "React Hooks Study Session",
+    listName: "React Hooks Study Session",
     description: "Study reduce hook",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",
@@ -904,7 +904,7 @@ export const todosSeeds = [
     priority: false,
   },
   {
-    list: "React Hooks Study Session",
+    listName: "React Hooks Study Session",
     description: "Create custom hooks",
     done: true,
     doneByXDate: "Sun Apr 28 2024 20:29:45 GMT-0600 (Central Standard Time)",

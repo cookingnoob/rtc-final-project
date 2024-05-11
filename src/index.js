@@ -8,18 +8,8 @@ import morgan from "morgan";
 import bodyParser from "body-parser";
 import { userRouter } from "./routes/user.js";
 import connectToDB from "./config/connectDB.js";
-import { readCsvFiles } from "./config/csvToJson.js";
-import {
-  seedDB,
-  linkListsToUser,
-  linkUserIdToLists,
-  linkToDosToLists,
-  deleteKeys,
-  linkListtoTodo,
-} from "./config/seedDb.js";
 import { listsRouter } from "./routes/lists.js";
 import { todoRouter } from "./routes/to-dos.js";
-
 
 //CONFIGURATIONS
 const __filename = fileURLToPath(import.meta.url);
@@ -34,43 +24,31 @@ app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 
-//CSV A JSON
-//Acepta un parametro obligatorio que es el nombre del archivo que se va a leer
-//readCsvFiles("users.csv");
-
 connectToDB();
-//llenar la bbdd y enlazar las ids de las semillas
-// seedDB(true);
-// linkListsToUser();
-// linkUserIdToLists();
-// linkToDosToLists();
-// linkListtoTodo()
-//deleteKeys();
 
 //ROUTES
-
 app.use("/user", userRouter);
-app.use('/lists', listsRouter)
-app.use('/todos', todoRouter)
+app.use("/lists", listsRouter);
+app.use("/todos", todoRouter);
 
 app.use((req, res, next) => {
-  const error = new Error("No encontramos lo que buscabas")
-  error.status = 404
-  next(error)
-})
+  const error = new Error("No encontramos lo que buscabas");
+  error.status = 404;
+  next(error);
+});
 
 app.use((err, req, res, next) => {
-  console.error(err)
+  console.error(err);
   if (err.status) {
-    res.status(err.status).json({ error: err.message })
-  } else if (err.name === 'ValidationError') {
-    res.status(400).json({ error: 'Validación fallida', error: err.message })
+    res.status(err.status).json({ error: err.message });
+  } else if (err.name === "ValidationError") {
+    res.status(400).json({ error: "Validación fallida", error: err.message });
   } else if (err.code && err.code === 11000) {
-    res.status(409).json({ error: 'La informacion se está duplicando' })
+    res.status(409).json({ error: "La informacion se está duplicando" });
   } else {
-    res.status(500).json({ error: 'Error interno en el servidor' })
+    res.status(500).json({ error: "Error interno en el servidor" });
   }
-})
+});
 
 const PORT = 3001;
 

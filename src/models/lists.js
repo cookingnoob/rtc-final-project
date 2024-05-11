@@ -1,22 +1,21 @@
 import mongoose from "mongoose";
 
-const listSchema = new mongoose.Schema({
-  listName: {
-    type: String,
+const listSchema = new mongoose.Schema(
+  {
+    listName: {
+      type: String,
+    },
+    color: String,
+    userName: String,
+    user: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+    },
+    global: Boolean,
+    ratings: Number,
   },
-  color: String,
-  user: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "User",
-  },
-  sharedUsers: [{ type: String }],
-  todos: [{
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "Todo",
-  }],
-  global: Boolean,
-  ratings: Number,
-});
+  { timestamps: true }
+);
 
 const List = mongoose.model("Lists", listSchema);
 

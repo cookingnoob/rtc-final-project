@@ -1,66 +1,49 @@
+import dotenv from "dotenv";
 import List from "../models/lists.js";
 import ToDo from "../models/to-dos.js";
 import User from "../models/user.js";
 import { listSeeds } from "./seeds/lists.js";
 import { todosSeeds } from "./seeds/to-dos.js";
 import { userSeeds } from "./seeds/users.js";
+import connectToDB from "./connectDB.js";
 
-const seedDB = async (cleanDB) => {
+const seedDB = async () => {
   try {
-    if (cleanDB === true) {
-      try {
-        await Promise.all([
-          List.deleteMany({}),
-          ToDo.deleteMany({}),
-          User.deleteMany({}),
-        ]);
-        console.log("se limpiaron las bases List, Todo y Recipes");
-      } catch (error) {
-        console.error(`no se pudo limpiar la db ${error}`);
-      }
-    }
+    await Promise.all([
+      List.deleteMany({}),
+      ToDo.deleteMany({}),
+      User.deleteMany({}),
+    ]);
+    console.log("se limpiaron las bases List, Todo y Recipes");
+
+    await User.insertMany(userSeeds);
+    console.log("se subieron las seeds de usuarios");
 
     await List.insertMany(listSeeds);
     console.log("se subieron las seeds de List");
 
     await ToDo.insertMany(todosSeeds);
     console.log("se subieron las seeds de To dos");
-
-    await User.insertMany(userSeeds);
-    console.log("se subieron las seeds de List");
   } catch (error) {
     console.error(`no se pudo poblar la db ${error}`);
-  }
-};
-
-const linkListsToUser = async () => {
-  const users = await User.find();
-  try {
-    for (const user of users) {
-      const lists = await List.find({ user: user.name });
-      const listIDs = lists.map((list) => list._id);
-      user.lists = listIDs;
-
-      await user.save();
-      console.log("se actualizo la id de las listas en los usuarios");
-    }
-  } catch (error) {
-    console.error(`no se pudo ligar usuarios a las listas ${error}`);
   }
 };
 
 const linkUserIdToLists = async () => {
   const lists = await List.find();
 
-  // lists.map((list) => console.log(`id de la lista ${list._id}`));
-  // users.map((user) => console.log(`id de usuarios listas ${user.lists}`));
-
   try {
     for (const list of lists) {
-      const user = await User.findOne({ name: list.user });
-      list.user = user._id;
-      await list.save();
-      console.log("se guardo el id del usuario en la lista");
+      const user = await User.findOne({ name: list.userName });
+      if (user) {
+        await List.findByIdAndUpdate(list._id, {
+          $set: { user: user._id },
+          $unset: { userName: "" },
+        });
+        console.log(
+          `se actualizo la lista ${list.listName} con el id del usuario`
+        );
+      }
     }
   } catch (error) {
     console.error(`no se pudo ligar los usuarios a las listas ${error}`);
@@ -68,51 +51,35 @@ const linkUserIdToLists = async () => {
 };
 
 const linkToDosToLists = async () => {
-  const toDos = await ToDo.find();
-
   try {
-    for (const todo of toDos) {
-      const list = await List.findOne({ id: todo.listID });
-      todo.list = list._id;
-
-      await todo.save();
-      console.log("se guardaron los id de las listas a los todos");
+    const todos = await ToDo.find();
+    for (let todo of todos) {
+      const list = await List.findOne({ listName: todo.listName });
+      if (list) {
+        await ToDo.findByIdAndUpdate(todo._id, {
+          $set: { list: list._id },
+          $unset: { listName: "" },
+        });
+        console.log(`se ligo ${todo.description} a la lista ${list.listName}.`);
+      }
     }
   } catch (error) {
-    console.error(`no se pudo ligar las listas a los todos ${error}`);
+    console.error(
+      `no se pudo enlazar el todo ${todo.description} con la lista ${todo.listName}`
+    );
   }
 };
 
-const linkListtoTodo = async () => {
-  const lists = await List.find({ global: true })
+const seedFlow = async () => {
   try {
-    for (const l of lists) {
-      const listToDos = []
-      const toDos = await ToDo.find({ list: l._id })
-      toDos.map(todo => listToDos.push(todo._id))
-      l.todos = listToDos
-      await l.save()
-      console.log('se ligaron los to-dos a las seed de listas')
-    }
-
+    dotenv.config();
+    await connectToDB();
+    await seedDB();
+    await linkUserIdToLists();
+    await linkToDosToLists();
+    console.log("ya concluyo el proceso de seeding y relacionar modelos");
   } catch (error) {
-    console.error(`no se pudieron ligar los to do a las listas ${error}`)
-  }
-}
-
-const deleteKeys = async () => {
-  try {
-    const toDos = await ToDo.find();
-    toDos.forEach((todo) => console.log(todo.id));
-  } catch (error) {
-    console.error(`error al borrar las claves ${error}`);
+    console.error(error);
   }
 };
-export {
-  seedDB,
-  linkListsToUser,
-  linkUserIdToLists,
-  linkToDosToLists,
-  linkListtoTodo,
-  deleteKeys,
-};
+seedFlow();
