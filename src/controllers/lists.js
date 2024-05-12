@@ -9,7 +9,7 @@ const getGlobalLists = async (req, res, next) => {
     if (!globalLists) {
       res.status(404).json({ error: 'no se encontraron las listas' })
     }
-    res.status(201).json({ data: globalLists })
+    res.status(200).json({ data: globalLists })
   } catch (error) {
     next(error)
   }
@@ -31,7 +31,7 @@ const getListById = async (req, res, next) => {
     const list = await List.findById(id)
     if (!list) {
       const error = new Error('no esta esa lista')
-      error.status = 400
+      error.status = 404
       next(error)
     }
     const todos = await ToDo.find({ list: id })
@@ -67,13 +67,13 @@ const patchEditList = async (req, res, next) => {
     const { listName, color, global } = req.body
     if (!mongoose.Types.ObjectId.isValid(id)) {
       const error = new Error('no se encontró la lista')
-      error.status = 400
+      error.status = 404
       next(error)
     }
     const doesListExist = await List.findOne({ _id: id })
     if (!doesListExist) {
       const error = new Error('no se encontró la lista')
-      error.status = 400
+      error.status = 404
       next(error)
     }
     await List.findOneAndUpdate({ _id: id }, {
@@ -97,7 +97,7 @@ const deleteList = async (req, res, next) => {
     const doesListExist = await List.findOne({ _id: id })
     if (!doesListExist) {
       const error = new Error('no se encontró la lista')
-      error.status = 400
+      error.status = 404
       next(error)
     }
     await List.findOneAndDelete({ _id: id })
@@ -128,4 +128,33 @@ const postNewTodo = async (req, res, next) => {
   }
 }
 
-export { getGlobalLists, getUserLists, getListById, postNewList, postNewTodo, patchEditList, deleteList }
+const patchToDoInfo = async (req, res, next) => {
+  try {
+    const { id } = req.params
+    const { description, howMuchTimeItTakes, doneByXDate, notes, order, done } = req.body
+    const patchedTodo = await ToDo.findByIdAndUpdate(id,
+      { description, howMuchTimeItTakes, doneByXDate, notes, order, done },
+      { new: true, runValidators: true })
+    if (!patchedTodo) {
+      const error = new Error('no se encontro el archivo')
+      error.status = 404
+      next(error)
+    }
+    res.status(200).json({ data: `se actualizo el recordatorio ${patchedTodo}` })
+  } catch (error) {
+    next(error)
+  }
+}
+const deleteToDo = async (req, res, next) => {
+  try {
+    const { id } = req.params
+    await ToDo.findByIdAndDelete(id)
+    res.status(200).json({ data: 'se elimino el todo' })
+
+  } catch (error) {
+    next(error)
+  }
+}
+
+
+export { getGlobalLists, getUserLists, getListById, postNewList, patchEditList, deleteList, postNewTodo, patchToDoInfo, deleteToDo }
