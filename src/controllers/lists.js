@@ -5,7 +5,7 @@ import ToDo from "../models/to-dos.js"
 //lists
 const getGlobalLists = async (req, res, next) => {
   try {
-    const globalLists = await List.find({ global: true }).populate({ path: 'todos', select: 'description' })
+    const globalLists = await List.find({ global: true })
     if (!globalLists) {
       res.status(404).json({ error: 'no se encontraron las listas' })
     }
@@ -18,8 +18,8 @@ const getGlobalLists = async (req, res, next) => {
 const getUserLists = async (req, res, next) => {
   try {
     const { id } = req.user
-    const user = await User.findOne({ _id: id }).populate('lists')
-    res.status(200).json({ data: user.lists })
+    const lists = await List.find({ user: id })
+    res.status(200).json({ data: lists })
   } catch (error) {
     next(error)
   }
