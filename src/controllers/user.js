@@ -1,7 +1,6 @@
-import { query, validationResult } from "express-validator";
+import { validationResult } from "express-validator";
 import bcrypt from "bcrypt";
 import User from "../models/user.js";
-import jwt from 'jsonwebtoken'
 import List from "../models/lists.js";
 import { signToken } from "../middlewares/jwt.js";
 
@@ -37,6 +36,7 @@ const registerUser = async (req, res, next) => {
       password: hashedPassword,
     });
 
+    await newUser.save();
 
     const generalList = new List({
       listName: 'General',
@@ -46,10 +46,19 @@ const registerUser = async (req, res, next) => {
       ratings: 0,
     })
 
-    newUser.lists.push(generalList._id)
 
-    await newUser.save();
     await generalList.save()
+
+    const priorityList = new List({
+      listName: 'Prioritarios',
+      color: '#ff5757',
+      user: newUser._id,
+      global: false,
+      ratings: 0,
+    })
+
+
+    await priorityList.save()
 
     const payload = { id: newUser._id }
     const token = signToken(payload)

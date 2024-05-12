@@ -2,7 +2,7 @@ import mongoose from "mongoose"
 import List from "../models/lists.js"
 import User from "../models/user.js"
 import ToDo from "../models/to-dos.js"
-
+//lists
 const getGlobalLists = async (req, res, next) => {
   try {
     const globalLists = await List.find({ global: true }).populate({ path: 'todos', select: 'description' })
@@ -86,26 +86,6 @@ const patchEditList = async (req, res, next) => {
     next(error)
   }
 }
-
-const postNewTodo = async (req, res, next) => {
-  try {
-    const { id } = req.params
-    const { description, howMuchTimeItTakes, doneByXDate, notes } = req.body
-    const newTodo = new ToDo({
-      description: description,
-      list: id,
-      notes: notes,
-      doneByXDate: doneByXDate,
-      howMuchTimeItTakes: howMuchTimeItTakes,
-      done: false
-    })
-    await newTodo.save()
-    res.status(201).json({ data: `se creo el archivo ${newTodo}` })
-  } catch (error) {
-    next(error)
-  }
-}
-
 const deleteList = async (req, res, next) => {
   try {
     const { id } = req.params
@@ -122,6 +102,27 @@ const deleteList = async (req, res, next) => {
     }
     await List.findOneAndDelete({ _id: id })
     res.status(200).json({ data: 'se eliminó la lista' })
+  } catch (error) {
+    next(error)
+  }
+}
+//TO-DOS
+const postNewTodo = async (req, res, next) => {
+  try {
+    const { id } = req.params
+    const { description, howMuchTimeItTakes, doneByXDate, notes, order } = req.body
+    const newTodo = new ToDo({
+      description: description,
+      list: id,
+      notes: notes,
+      doneByXDate: doneByXDate,
+      howMuchTimeItTakes: howMuchTimeItTakes,
+      done: false,
+      order: order,
+      priority: false
+    })
+    await newTodo.save()
+    res.status(201).json({ data: `se creo el archivo ${newTodo}` })
   } catch (error) {
     next(error)
   }
