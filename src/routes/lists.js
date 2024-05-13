@@ -1,5 +1,5 @@
 import express from 'express'
-import { deleteList, deleteToDo, getGlobalLists, getListById, getUserLists, patchEditList, patchToDoInfo, postNewList, postNewTodo } from '../controllers/lists.js'
+import { deleteList, getGlobalLists, getListById, getUserLists, patchEditList, postNewList, addNewToDoToList } from '../controllers/lists.js'
 import { validateToken } from '../middlewares/authJWT.js'
 
 const router = express.Router()
@@ -19,9 +19,6 @@ router.patch('/edit/:id', validateToken, patchEditList)
 router.delete('/delete/:id', validateToken, deleteList)
 
 //nuevo todo el id es de la lista para saber en donde va el todo
-router.post('/new-todo/:id', validateToken, postNewTodo)
-//patch todo el id es del todo para saber cual todo hay que eliminar
-router.patch('/patch-todo/:id', validateToken, patchToDoInfo)
-//eliminar todo el id es para eliminar el todo
-router.delete('/delete-todo/:id', validateToken, deleteToDo)
+router.post('/new-todo/:id', validateToken, addNewToDoToList)
+
 export { router as listsRouter } 
