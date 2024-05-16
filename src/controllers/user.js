@@ -75,19 +75,19 @@ const loginUser = async (req, res, next) => {
     const userExists = await User.findOne({ email: email });
 
     if (!userExists) {
-      res.status(400).json({ errorMessage: 'verifica tus credenciales para iniciar sesión' })
+      return res.status(400).json({ errorMessage: 'verifica tus credenciales para iniciar sesión' })
     }
 
-    const isPasswordRight = bcrypt.compare(password, userExists.password)
+    const isPasswordRight = await bcrypt.compare(password, userExists.password)
 
     if (!isPasswordRight) {
-      res.status(400).json({ errorMessage: 'verifica tus credenciales para iniciar sesión' })
+      return res.status(400).json({ errorMessage: 'verifica tus credenciales para iniciar sesión' })
     }
 
     if (userExists && isPasswordRight) {
       const payload = { id: userExists._id }
       const token = signToken(payload)
-      res.status(201).json({ data: `iniciaste sesión ${token}`, token })
+      res.status(201).json({ data: `iniciaste sesión`, token })
     }
 
   } catch (error) {
