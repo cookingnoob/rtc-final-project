@@ -10,7 +10,7 @@ router.get('/share', getGlobalLists)
 //listas del usuario
 router.get('/user', validateToken, getUserLists)
 //listas por id
-router.get('/:id', validateToken, getListById)
+router.get('/:id', getListById)
 //nueva lista
 router.post('/new', validateToken, postNewList)
 // editar lista
