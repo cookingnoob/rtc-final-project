@@ -6,10 +6,10 @@ import path from "path";
 import helmet from "helmet";
 import morgan from "morgan";
 import bodyParser from "body-parser";
-import { userRouter } from "./routes/user.js";
-import connectToDB from "./config/connectDB.js";
-import { listsRouter } from "./routes/lists.js";
-import { todoRouter } from "./routes/to-dos.js";
+import { userRouter } from "./src/routes/user.js";
+import connectToDB from "./src/config/connectDB.js";
+import { listsRouter } from "./src/routes/lists.js";
+import { todoRouter } from "./src/routes/to-dos.js";
 
 //CONFIGURATIONS
 const __filename = fileURLToPath(import.meta.url);
@@ -54,5 +54,5 @@ const port = process.env.PORT || 3000
 
 
 app.listen(port, '0.0.0.0', () => {
-  console.log(`corriendo en localhost:${PORT}`);
+  console.log(`corriendo en localhost:${port}`);
 });
